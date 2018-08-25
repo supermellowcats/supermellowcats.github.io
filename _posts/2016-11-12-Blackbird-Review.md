@@ -5,7 +5,7 @@ comments: true
 tags: theatre review bits dojma
 ---
 
-![Blackbird Set](../images/2018-08-24-Blackbird-Review_1.jpg "The set of Blackbird")
+![Blackbird Set](/images/2016/2016-08-24-Blackbird-Review_1.jpg "The set of Blackbird")
 
 ### Blackbird
 
