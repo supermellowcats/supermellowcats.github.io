@@ -13,10 +13,7 @@
             <li><a href="{{ url }}">{{ link.title }}</a></li>
           {%- else -%}
             <li>
-              <div class="dropdown">
-                <button class="dropbtn">{{ link.title}}
-                  <i class="fa fa-caret-down"></i>
-                </button>
+              <div class="dropdown">{{ link.title}}
                 <div class="dropdown-content">
                   {% for subcategory in link.subcategories %}
                     <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
