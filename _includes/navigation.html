@@ -3,23 +3,23 @@
     <a href="#menu-toggle" id="menu-toggle">{{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
     <nav id="primary-nav" class="site-nav animated drop">
         <ul>
-          {% for nav in site.data.nav %}
-            {% if nav.subcategories != null %}
+          {% for link in site.data.navigation %}
+            {% if link.subcategories != null %}
               <li>
-                <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
+                <a href="{{ site.url }}{{ link.url }}">{{ link.title }} ▼</a>
                 <ul>
-                {% for subcategory in nav.subcategories %}
+                {% for subcategory in link.subcategories %}
                   <li><a href="{{ site.url }}{{ subcategory.url }}">{{ subcategory.subtitle }}</a></li>
                 {% endfor %}
                 </ul>
               </li>
-            {% elsif nav.title == page.title %}
+            {% elsif link.title == page.title %}
                <li class="active">
-                 <a href="{{ nav.url }}">{{ nav.title }}</a>
+                 <a href="{{ link.url }}">{{ link.title }}</a>
                </li>
             {% else %}
               <li>
-                <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+                <a href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>
               </li>
             {% endif %}
           {% endfor %}
