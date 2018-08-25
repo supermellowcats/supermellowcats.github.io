@@ -19,8 +19,8 @@
     - subtitle: Misc
       url: /posts/misc/
 
-- title: Tags
-  url: /tags/
+#- title: Tags
+#  url: /tags/
 
 - title: Search
   url: /search/
