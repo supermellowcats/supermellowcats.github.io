@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Theatre Review - Blackbird
-category: Misc
+categories: Misc
 comments: true
 tags: theatre bits dojma
 ---

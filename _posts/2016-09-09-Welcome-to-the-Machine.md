@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to the Machine
 comments: true
-category: Misc
+categories: Misc
 tags:
   - helloworld
 hidden: false
