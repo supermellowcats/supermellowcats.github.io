@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clams, Coins, Cards and Cryptocurrencies - how it all happened
-categories: Sci+Tech
+category: Sci+Tech
 comments: true
 tags: economics history cryptocurrency technology
 ---

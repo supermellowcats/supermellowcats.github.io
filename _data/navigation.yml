@@ -7,17 +7,7 @@
   url: /about/
 
 - title: Categories
-  subcategories:
-    - subtitle: All
-      url: /posts/
-    - subtitle: Science + Tech
-      url: /posts/sci+tech/
-    - subtitle: Poetry
-      url: /posts/poetry/
-    - subtitle: Reflections
-      url: /posts/reflections/
-    - subtitle: Misc
-      url: /posts/misc/
+  url: /categories/
 
 #- title: Tags
 #  url: /tags/

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Freedom
-categories: Poetry
+category: Poetry
 comments: true
 tags: freedom india
 ---
