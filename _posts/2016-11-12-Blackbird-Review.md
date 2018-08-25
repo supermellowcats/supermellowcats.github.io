@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Theatre Review - Blackbird
+categories: misc
 comments: true
-tags: theatre review bits dojma
+tags: theatre bits dojma
 ---
 
 ![Blackbird Set](/images/2016/2016-08-24-Blackbird-Review_1.jpg "The set of Blackbird")

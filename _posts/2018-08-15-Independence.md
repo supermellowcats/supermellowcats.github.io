@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Independence
+title: Freedom
+categories: poetry
 comments: true
-tags: poetry freedom india 
+tags: freedom india
 ---
 
 Hello, fellow countryman.  

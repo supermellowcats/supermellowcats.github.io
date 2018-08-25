@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Clams, Coins, Cards and Cryptocurrencies - how it all happened
+categories: sci+tech
 comments: true
-tags: economics history article cryptocurrency technology
+tags: economics history cryptocurrency technology
 ---
 
 Welcome to 2018. The year that science fiction plots start needing to be dumbed down. For what has become realistically technologically achievable is straining the limits of the typical bounds on imagination.
