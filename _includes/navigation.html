@@ -4,11 +4,21 @@
     <nav id="primary-nav" class="site-nav animated drop">
       <ul>
         {%- for link in site.data.navigation -%}
-          {%- if link.url contains '://' -%}
-            {%- assign url = link.url -%}
-          {%- else -%}
-            {%- assign url = link.url | relative_url -%}
-          {%- endif -%}
+          {% if link.subcategories != null %}
+            {%- if link.url contains '://' -%}
+              {%- assign url = link.url -%}
+            {%- else -%}
+              {%- assign url = link.url | relative_url -%}
+            {%- endif -%}
+          {% elsif link.title == page.title %}
+             <li class="active">
+               <a href="{{ link.url }}">{{ link.title }}</a>
+             </li>
+          {% else %}
+            <li>
+              <a href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>
+            </li>
+          {% endif %}
           <li><a href="{{ url }}">{{ link.title }}</a></li>
         {%- endfor -%}
       </ul>
