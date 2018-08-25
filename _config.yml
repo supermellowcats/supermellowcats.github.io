@@ -101,6 +101,12 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Email
+    url: mailto:aabir.abubaker.kar at gmail dot com
+    icon: fa-email
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/aabir/
+    icon: fa-linkedin
+  - title: github
+    url: https://github.com/bakerwho
+    icon: fa-github
