@@ -2,28 +2,16 @@
   <div class="navigation-wrapper">
     <a href="#menu-toggle" id="menu-toggle">{{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
     <nav id="primary-nav" class="site-nav animated drop">
-        <ul>
-          {% for link in site.data.navigation %}
-            {% if link.subcategories != null %}
-              <li>
-                <a href="{{ site.url }}{{ link.url }}">{{ link.title }} ▼</a>
-                <ul>
-                {% for subcategory in link.subcategories %}
-                  <li><a href="{{ site.url }}{{ subcategory.url }}">{{ subcategory.subtitle }}</a></li>
-                {% endfor %}
-                </ul>
-              </li>
-            {% elsif link.title == page.title %}
-               <li class="active">
-                 <a href="{{ link.url }}">{{ link.title }}</a>
-               </li>
-            {% else %}
-              <li>
-                <a href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </nav>
+      <ul>
+        {%- for link in site.data.navigation -%}
+          {%- if link.url contains '://' -%}
+            {%- assign url = link.url -%}
+          {%- else -%}
+            {%- assign url = link.url | relative_url -%}
+          {%- endif -%}
+          <li><a href="{{ url }}">{{ link.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
   </div><!-- /.navigation-wrapper -->
 {% endif %}
