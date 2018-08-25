@@ -92,9 +92,12 @@ author:
   email: aabir.abubaker.kar at gmail dot com
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/aabir/
+      icon: fa-linkedin
+    - title: github
+      url: https://github.com/bakerwho
+      icon: fa-github
 
 # Footer Links
 footer_links:
