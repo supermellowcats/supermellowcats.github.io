@@ -1,7 +1,7 @@
 ---
 title: Welcome to the Machine
 comments: true
-categories: misc
+categories: Misc
 tags:
   - helloworld
 hidden: false
