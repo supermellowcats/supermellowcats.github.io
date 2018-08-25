@@ -3,9 +3,9 @@
 
 aabir:
   name: Aabir Abubaker Kar
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+  picture:
+  twitter: ""
   links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+    - title:
+      url:
+      icon: 
