@@ -6,19 +6,13 @@ show_excerpts: false
 entries_layout: list
 ---
 
-<ul class="post-list">
-{% for post in site.categories.Project %}
-  <li>
-    <article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-    <!---
-    <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
-    ---><br>
-    {% if post.excerpt %}
-        <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories[0] == 'Projects' %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
     {% endif %}
-
-
-    </a></article>
-  </li>
-{% endfor %}
+  {% endfor %}
 </ul>
