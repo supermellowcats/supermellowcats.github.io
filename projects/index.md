@@ -8,7 +8,7 @@ entries_layout: list
 
 <ul>
   {% for post in site.posts %}
-    {% if post.categories[0] == 'Projects' %}
+    {% if post.categories == 'Projects' %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
