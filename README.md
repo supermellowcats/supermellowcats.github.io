@@ -1,3 +1,6 @@
+I guess I'll just keep this here...
+
+
 # [So Simple Jekyll Theme][1]
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)](https://raw.githubusercontent.com/mmistakes/so-simple-theme/master/LICENSE)
@@ -1140,7 +1143,7 @@ If all goes well, executing `npm run build:js` will compress/concatenate `main.j
 ## Contributing
 
 Found a typo in the documentation? Requesting a feature or
-[bug fix][issues]? Search through the open and closed issues before [submitting an issue][new-issue] to avoid duplication. 
+[bug fix][issues]? Search through the open and closed issues before [submitting an issue][new-issue] to avoid duplication.
 
 [Pull requests][using-pull-requests] are also appreciated. If this is your first time, it may be helpful to read up on the [GitHub Flow][github-flow].
 
