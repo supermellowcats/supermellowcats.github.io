@@ -10,8 +10,8 @@ entries_layout: list
   {% for post in site.categories.Project %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
       <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
