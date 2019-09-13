@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: project
 title: PyCon talk - PCA and dimensionality reduction
 comments: true
-image: /images/2019/pca_talk.jpg
 categories: Projects
 tags:
   - PCA data analysis PyCon talk
@@ -10,6 +9,9 @@ hidden: false
 ---
 
 In 2018, I had the chance to speak at 3 Python conferences in 3 continents - in Johannesburg, Washington D.C., and Manipal, India.
+
+![PyData DC 2018](/images/2019/pca_talk.jpg)
+
 
 While undoubtedly a fantastic experience in developing my ability to deliver technical talks, these experiences have made me a sworn fan of FOSS (Free Open Source Software) culture and the inclusiveness and positivity of the PyCon and PyData communities at large.
 
