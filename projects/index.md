@@ -7,7 +7,7 @@ entries_layout: list
 ---
 
 <ul>
-  {% for post in site.categories.Project %}
+  {% for post in site.categories.Projects %}
     <li>
       <h1 id="page-title" class="page-title p-name">
         <a href="{{ post.url }}">{{ post.title }}</a>
