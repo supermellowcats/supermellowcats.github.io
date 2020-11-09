@@ -1,17 +1,15 @@
 ---
 layout: page
-title: Computational Synesthesia (2019)
+title: Hyperbolic Skill Embeddings at the Knowledge Lab
 comments: true
 categories: Project
 tags:
-  - color synesthesia cognition complex
-excerpt: compsyn - a Python package that offers a novel method to explore the relationship between color and the semantic meaning of concepts
+  - embeddings deep learning knowledge skills sociology
+excerpt:
 hidden: false
 ---
 
-I was fortunate to join a multidisciplinary, very intelligent, and very skilled cohort at the Santa Fe Institute's Complex Systems Summer School, 2019 (CSSS19).
-
-Over discussions on the dependence of art of its observer, on an objective framework for judging art, on the nature of meaning and cognition, an idea was born - to attempt to trace color as a root of meaning.
+At the University of Chicago, I was deeply interested in the work of Prof. James Evans, a sociologist who synthesizes 
 
 In our attempt to formalize the analysis, we dipped into color theory, cognitive theory, machine learning, and information theory.
 
