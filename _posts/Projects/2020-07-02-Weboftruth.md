@@ -6,5 +6,5 @@ categories: Projects
 tags:
   - deep learning timeseries classification nlp
 excerpt:
-hidden: false
+hidden: true
 ---

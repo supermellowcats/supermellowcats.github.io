@@ -6,6 +6,7 @@ categories: Projects
 tags:
   - embeddings deep learning knowledge skills sociology
 excerpt:
+published: false
 hidden: false
 ---
 
@@ -25,4 +26,4 @@ To be more specific - the d-dimensional embeddings for a vocabulary V consisting
 
 Why are these embeddings useful? Well, because we design them to be. For example, with Mikolov et al's Word2Vec (2013), word vectors were optimized to preserve semantic meaning in the form of probability measurements.
 
-We start with the distributional hypothesis.
+We start with the distributional hypothesis. < incomplete >
