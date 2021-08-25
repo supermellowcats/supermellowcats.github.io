@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Winning a Natural Language Processing Kaggle competition
+title: NLP Kaggle competition: sentence paraphrase detector
 comments: true
 categories: Projects
 tags:
   - deep learning classification nlp
-excerpt:
+excerpt: I won an NLP Kaggle Competition using a unique BERT + LSTM architecture...
 hidden: false
 ---
 

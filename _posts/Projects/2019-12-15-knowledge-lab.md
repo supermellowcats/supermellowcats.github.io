@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Hyperbolic Skill Embeddings at the Knowledge Lab
+title: Research: Hyperbolic Skill Embeddings
 comments: true
 categories: Projects
 tags:
   - embeddings deep learning knowledge skills sociology
-excerpt:
+excerpt: I used deep learning for computational social science on a dataset of jobs and skills...
 published: false
 hidden: false
 ---
