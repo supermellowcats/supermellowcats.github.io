@@ -3,6 +3,7 @@ layout: post
 title: Tips for beginner programmers
 categories: Blog
 comments: true
+excerpt: Reflections from teaching 2 quarters of 'Computer Science with Social Science Applications' at the University of Chicago
 tags: code teaching programming Python
 ---
 
