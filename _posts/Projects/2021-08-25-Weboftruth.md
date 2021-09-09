@@ -6,5 +6,5 @@ categories: Projects
 tags:
   - deep learning classification nlp
 excerpt:
-hidden: false
+published: false
 ---
