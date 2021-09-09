@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NLP Kaggle competition: sentence paraphrase detector
+title: NLP Kaggle competition | Detecting sentence paraphrases
 comments: true
 categories: Projects
 tags:
