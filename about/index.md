@@ -6,8 +6,8 @@ title: About
 My name is Aabir Abubaker Kar.
 
 I have worked as a data scientist and engineer, machine learning researcher, business analyst, or some combination of these at some phenomenal places:
-- (Brighthive.io)[https://brighthive.io/] (Chicago, USA)
-- (The Knowledge Lab)[https://www.knowledgelab.org/] and the (Computer Science Department)[https://computerscience.uchicago.edu/] at the University of Chicago
+- [Brighthive.io](https://brighthive.io/) (Chicago, USA)
+- [The Knowledge Lab](https://www.knowledgelab.org/) and the [Computer Science Department](https://computerscience.uchicago.edu/) at the University of Chicago
 - [Zipline](https://flyzipline.com/) (San Francisco, USA)
 - [International Centre for Theoretical Sciences, Bangalore](https://www.icts.res.in/) (Bengaluru, India)
 - [New England Complex Systems Institute](http://necsi.edu/) (Cambridge, USA)
