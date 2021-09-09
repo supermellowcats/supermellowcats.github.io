@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research | Hyperbolic Embeddings of Social data
+title: "Research | Hyperbolic Embeddings of Social data"
 comments: true
 categories: Projects
 tags:
