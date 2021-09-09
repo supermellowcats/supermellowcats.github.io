@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "NLP Kaggle competition | Detecting sentence paraphrases"
 comments: true
 categories: Projects

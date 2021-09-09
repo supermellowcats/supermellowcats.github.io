@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Research | Hyperbolic Embeddings of Social data"
 comments: true
 categories: Projects
