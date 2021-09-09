@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thesis | Knowledge Graph Embeddings for algorithmic fact checking"
+title: "Thesis: Knowledge Graph Embeddings for algorithmic fact checking"
 comments: true
 categories: Projects
 tags:
