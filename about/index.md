@@ -12,7 +12,7 @@ I have worked as a data scientist and engineer, machine learning researcher, bus
 - [International Centre for Theoretical Sciences, Bangalore](https://www.icts.res.in/) (Bengaluru, India)
 - [New England Complex Systems Institute](http://necsi.edu/) (Cambridge, USA)
 
-[Here](https://bakerwho.github.io/projects/) are some of my projects.
+You can read about some of my projects [here](https://bakerwho.github.io/projects/). For many that involve code, you can find the source code on my [Github](https://www.github.com/bakerwho).
 
 I am currently on the hunt for exciting Data Science positions that let me combine my extensive algorithmic repertoire, compulsive problem-solving attitude, and gritty, extreme-ownership working style. Get in touch at [aabir.abubaker.kar at gmail dot com](mailto:aabir.abubaker.kar at gmail dot com) if you want to work with me!
 
