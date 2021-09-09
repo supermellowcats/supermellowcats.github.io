@@ -18,6 +18,8 @@ published: true
     - How to successfully use intuition to improve deep learning model performance
     - How to diligently keep track of hyperparameter tuning and other meta-processes in machine learning
     - How to run experiments in NLP
+    - How to build a deployable Pytorch model (inference is a single line `model((sentence1, sentence2))`)
+    - How to build a retrainable Pytorch model (re-training is a single line of code `model.train(batch, n_epochs)`)
 - When was this?
     - September 2021 through December 2021
 
