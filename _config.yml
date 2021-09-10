@@ -17,7 +17,7 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Aabir Abubaker Kar's Blog"
-description: "science, poetry, wishful demagoguery"
+description: "data science, society, and hope"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://bakerwho.github.io"
 logo: "/images/general/favicon_large.png"
