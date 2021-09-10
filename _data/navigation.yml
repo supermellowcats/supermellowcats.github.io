@@ -9,17 +9,14 @@
 - title: Projects
   url: /projects/
 
+- title: Code
+  url: https://www.github.com/bakerwho
+
 - title: Blog
   url: /blog/
 
-- title: Categories
-  url: /categories/
-
 - title: Search
   url: /search/
-
-- title: github
-  url: https://www.github.com/bakerwho
 
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
