@@ -53,6 +53,9 @@ feed:
 # Search
 search_full_content: true # can have performance implications for large sites
 
+# Google Analytics
+google_analytics: G-3SYF1FE877
+
 # Taxonomy pages
 # category_archive_path: "/categories/#"
 # tag_archive_path: "/tags/#"

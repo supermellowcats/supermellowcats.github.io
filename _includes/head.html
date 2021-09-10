@@ -48,4 +48,8 @@
 
   {% include head-custom.html %}
   <link rel="icon" type="image/png" href="/images/general/favicon.png">
+
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
