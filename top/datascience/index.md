@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: collection
 title: Data Science Blog
 search: true
 show_excerpts: false
