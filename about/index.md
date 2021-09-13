@@ -5,15 +5,15 @@ title: About
 
 My name is Aabir Abubaker Kar.
 
-I have worked as a data scientist and engineer, machine learning researcher, business analyst, or some combination of these at some phenomenal places:
-- [Brighthive.io](https://brighthive.io/) (Chicago, USA)
-- [The Knowledge Lab](https://www.knowledgelab.org/) and the [Computer Science Department](https://computerscience.uchicago.edu/) at the University of Chicago
-- [Elucid.me](https://www.elucid.me), a start-up Regina Catipon and I founded!
-- [Zipline](https://flyzipline.com/) (San Francisco, USA)
-- [International Centre for Theoretical Sciences, Bangalore](https://www.icts.res.in/) (Bengaluru, India)
-- [New England Complex Systems Institute](http://necsi.edu/) (Cambridge, USA)
+I am a data scientist and data engineer, a machine learning researcher, a business strategist. I've had the good fortune to work with some amazing people at phenomenal places including:
+- [Brighthive.io](https://brighthive.io/) (Chicago, USA), a start-up building a novel data-sharing platform for integration and collaboration
+- [The Knowledge Lab](https://www.knowledgelab.org/) and the [Computer Science Department](https://computerscience.uchicago.edu/) at the University of Chicago, where I did research on interpretable deep representation learning
+- [Elucid.me](https://www.elucid.me), a start-up Regina Catipon and I founded to help you fact-check anything you see online
+- [Zipline](https://flyzipline.com/) (San Francisco, USA), a start-up that uses autonomous aircraft to deliver medical supplies in Ghana and Rwanda
+- [International Centre for Theoretical Sciences, Bangalore](https://www.icts.res.in/) (Bengaluru, India), where I adapted advanced machine learning to the problem of monsoon prediction
+- [New England Complex Systems Institute](http://necsi.edu/) (Cambridge, USA), where I analyzed terabytes of operations logs to build data-driven business intelligence
 
-You can read about some of my projects [here](https://bakerwho.github.io/projects/). For many that involve code, you can find the source code on my [Github](https://www.github.com/bakerwho).
+You can read more about my projects [here](https://bakerwho.github.io/projects/). For those that involve code, you can find the source on my [Github](https://www.github.com/bakerwho).
 
 I am currently on the hunt for exciting Data Science positions that let me combine my extensive algorithmic repertoire, compulsive problem-solving attitude, and gritty, extreme-ownership working style. Get in touch at [aabir.abubaker.kar at gmail dot com](mailto:aabir.abubaker.kar at gmail dot com) if you want to work with me!
 
