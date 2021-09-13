@@ -4,19 +4,22 @@
   url: /
 
 - title: About
-  url: /about/
+  url: /headings/about/
 
 - title: Projects
-  url: /projects/
+  url: /headings/projects/
 
 - title: Code
   url: https://www.github.com/bakerwho
 
-- title: Blog
-  url: /blog/
+- title: Data Science Blog
+  url: /headings/datascience/
+
+- title: Personal Blog
+  url: /headings/personal/
 
 - title: Search
-  url: /search/
+  url: /headings/search/
 
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
