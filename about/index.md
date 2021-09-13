@@ -8,6 +8,7 @@ My name is Aabir Abubaker Kar.
 I have worked as a data scientist and engineer, machine learning researcher, business analyst, or some combination of these at some phenomenal places:
 - [Brighthive.io](https://brighthive.io/) (Chicago, USA)
 - [The Knowledge Lab](https://www.knowledgelab.org/) and the [Computer Science Department](https://computerscience.uchicago.edu/) at the University of Chicago
+- [Elucid.me](https://www.elucid.me), a start-up Regina Catipon and I founded!
 - [Zipline](https://flyzipline.com/) (San Francisco, USA)
 - [International Centre for Theoretical Sciences, Bangalore](https://www.icts.res.in/) (Bengaluru, India)
 - [New England Complex Systems Institute](http://necsi.edu/) (Cambridge, USA)
@@ -24,7 +25,7 @@ During graduate school, I was a Machine Learning Researcher at [The Knowledge La
 
 My undergraduate education includes a surprising add-on Master's. I hold a **BE in Engineering** and an **MSc in Physics** from BITS Pilani, Goa Campus in India. I also hold from BITS a Minor Certificate in Philosophy, Economics and Politics.
 
-My research interests are in the intersection of AI and society - including political polarization, bias in news media, and the structure of knowledge bases. As a social scientist, I'm also deeply interested in theories of knowledge, learning, and cognition.
+My research interests are in the intersection of AI and society - including political polarization, bias in news media, and the structure of knowledge bases. As a social scientist, I'm also deeply interested in theories of individual and shared knowledge, learning, and cognition.
 
 ### Talk about ideas, events, people (in no particular order)
 
