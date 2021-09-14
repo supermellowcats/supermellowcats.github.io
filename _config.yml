@@ -16,8 +16,8 @@
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Aabir Abubaker Kar's Blog"
-description: "data science, society, and hope"
+title: "Aabir Abubaker Kar's Website"
+description: "data science for society"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://bakerwho.github.io"
 logo: "/images/general/favicon_large.png"
