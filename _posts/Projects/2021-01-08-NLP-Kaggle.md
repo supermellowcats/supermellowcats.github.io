@@ -5,7 +5,7 @@ comments: true
 categories: Projects
 tags:
   - deep learning classification nlp
-excerpt: Winning an NLP Kaggle Competition using a unique BERT + LSTM architecture ...
+excerpt: Won an NLP Kaggle Competition using a unique BERT + LSTM architecture ...
 published: true
 ---
 
