@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: Personal Blog
+title: Personal
 search: true
 show_excerpts: false
 entries_layout: list
