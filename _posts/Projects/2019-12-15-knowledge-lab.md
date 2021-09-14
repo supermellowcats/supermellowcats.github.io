@@ -5,7 +5,7 @@ comments: true
 categories: Projects
 tags:
   - embeddings deep learning knowledge skills sociology
-excerpt: I used deep learning for computational social science on a dataset of jobs and skills...
+excerpt: Applying deep learning for computational social science on a dataset of jobs and skills ...
 published: true
 ---
 

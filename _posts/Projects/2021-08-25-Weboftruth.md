@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Thesis: Knowledge Graph Embeddings for algorithmic fact checking"
+title: "Research: Knowledge Graph Embeddings for algorithmic fact checking"
 comments: true
 categories: Projects
 tags:
   - deep learning classification nlp
-excerpt:
-published: false
+excerpt: Building a Python package for reproducible research on the effect of corrupt training facts on Knowledge Graph Embeddings ...
+published: true
 ---
 
 ## Quick summary:
@@ -22,10 +22,11 @@ published: false
 - When was this?
     - The latter 15 months of my time at UChicago, so May 2020 through September 2021
 
-### Conceptual overview
 
+<!---
 ### Key findings:
-- Accuracy ruth prediction or credibility prediction is
+- Accuracy truth prediction or credibility prediction is
+--->
 
 All code is available at the [weboftruth](https://github.com/bakerwho/weboftruth) repo. Just `python -m pip install git+https://github.com/weboftruth/` to use it.
 
