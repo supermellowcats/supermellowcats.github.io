@@ -15,7 +15,7 @@ As you learn to think programmatically, you're bound to run into lots of errors.
 Sometimes this can be frustrating - especially when you don't understand what's going wrong. For this I would advise you to have patience - everything you struggle with now will be something that comes more intuitively to you the next time. Do try to synthesize your trials into learning rather than bruteforcing a 100 fixes until the thing stops breaking.
 
 
-The learning process can also be stressful because of its complexity and the aforementioned need to develop parallel skillsets. In a course environment, I encourage you to **start all your programming assignments well in advance**, **read the problem carefully and make notes/mind maps** of the steps or specifics you might have to keep in mind, and **work in multiple disjoint sessions**. In general, make sure to **take breaks**, ask for help, and sometimes - know when to go back to the drawing board and recheck all the minutiae of the problem.
+The learning process can also be stressful because of its complexity and the need to develop parallel skillsets. In a course environment, I encourage you to **start all your programming assignments well in advance**, **read the problem carefully and make notes/mind maps** of the steps or specifics you might have to keep in mind, and **work in multiple disjoint sessions**. In general, make sure to **take breaks**, ask for help, and sometimes - know when to go back to the drawing board and recheck all the minutiae of the problem.
 
 
 Depending on your learning style, documenting your understanding (as well as the specifics of programming assignments) with notes, diagrams, or to do lists may also be extremely helpful.
