@@ -14,7 +14,7 @@ AND complicit with bigotry. Of course, bigotry can always be explained away, esp
 
 Take a stand. Be better.
 
-PS: Mr. Modi is a bigot without even being a good economist.
+PS: Mr. Modi is a bigot without even being a competent economist.
 
 Sources:
 [1]: James Maynard Keynes, 1925. "Short View of Russia"
