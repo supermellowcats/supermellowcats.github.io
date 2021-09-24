@@ -13,9 +13,9 @@ layout: default
           {% assign title = page.title %}
         {% endif %}
         {% if page.link %}
-          <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+          <h3 id="page-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h3>
         {% else %}
-          <h1 id="page-title" class="page-title">{{ title }}</h1>
+          <h3 id="page-title" class="page-title">{{ title }}</h3>
         {% endif %}
       </header>
       <div class="page-content">
