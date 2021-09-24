@@ -3,23 +3,26 @@
 - title: Home
   url: /
 
-- title: About
-  url: /top/about/
+- title: About Me
+  url: /about/
 
 - title: Projects
-  url: /top/projects/
+  url: /projects/
+
+- title: Hire Me
+  url: /hireme/
 
 #- title: Code
 #  url: https://www.github.com/bakerwho
 
 - title: Data Science Blog
-  url: /top/datascience/
+  url: /datascience/
 
 - title: Personal
-  url: /top/personal/
+  url: /personal/
 
 - title: Search
-  url: /top/search/
+  url: /search/
 
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
