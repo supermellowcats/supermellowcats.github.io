@@ -5,7 +5,7 @@ comments: true
 categories: Projects
 tags:
   - deep learning classification nlp
-excerpt: Built a reproducible research pipeline to study the effect of corrupt training facts on Knowledge Graph Embeddings ...
+excerpt: I built a Python package to train and evaluate Knowledge Graph Embeddings on any dataset ...
 published: true
 ---
 

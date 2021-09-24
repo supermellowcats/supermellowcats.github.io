@@ -5,7 +5,7 @@ comments: true
 categories: Projects
 tags:
   - web development software jekyll website blog
-excerpt: Built this website that actually works ...
+excerpt: I built this website that works ...
 published: true
 ---
 
