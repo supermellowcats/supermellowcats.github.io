@@ -1,19 +1,22 @@
 ---
 layout: post
-title: Tips for beginner programmers
+title: Debugging tips for beginner programmers
 categories: DataScience
 comments: true
 excerpt: Reflections from teaching 2 quarters of 'Computer Science with Social Science Applications' at the University of Chicago
 tags: code teaching programming Python
+last_modified_at: 2021-09-23
 ---
 
-## How to learn to code
+## How to debug your code
 
-As you learn to think programmatically, you're bound to run into lots of errors. Think of trying to build a car from its parts, except you're also simultaneously trying to drive it - you have to learn two different sets of skills, at two different scales. The failure may be in **building** (how you connected two things together, your understanding of one component, how you designed or wrote your code), but also in **using**  (incorrect syntax, incorrect function calls, variable name reuse/overwrite). Or it could be some messy mix of the two.
+As you learn to think programmatically, you're bound to run into lots of errors. It's like trying to build a car from its parts, except you're also simultaneously trying to drive it. You have to simultaneously learn two different sets of skills that are interdependent.
 
+Think about it. When things break, the failure may be in the **building** (how you connected two things together, your understanding of a component, how you designed or wrote your code, etc.), but also perhaps in the **using**  (incorrect syntax, incorrect function calls, variable name reuse/overwrite, etc.). If you're unlucky, it could be some messy mix of the two.
 
-Sometimes this can be frustrating - especially when you don't understand what's going wrong. For this I would advise you to have patience - everything you struggle with now will be something that comes more intuitively to you the next time. Do try to synthesize your trials into learning rather than bruteforcing a 100 fixes until the thing stops breaking.
+At the outset, let me reassure you - everyone, even seasoned programmers, write buggy code. The mark of a seasoned programmer is not code without bugs - it is the ability to read an error message and instantly, even instinctively, know exactly how to fix it. More than anything, this comes from experience - it will never take you 5 hours to fix the same bug **the second time**.
 
+The first time for each type of bug, however, can be incredibly frustrating - especially when you don't understand what's going wrong. As you program more, this will happen often. The first most important thing you need is **patience** - everything you struggle with now will be something that comes more intuitively to you the next time. Do try to synthesize your trials into learning rather than bruteforcing a 100 fixes until the thing stops breaking.
 
 The learning process can also be stressful because of its complexity and the need to develop parallel skillsets. In a course environment, I encourage you to **start all your programming assignments well in advance**, **read the problem carefully and make notes/mind maps** of the steps or specifics you might have to keep in mind, and **work in multiple disjoint sessions**. In general, make sure to **take breaks**, ask for help, and sometimes - know when to go back to the drawing board and recheck all the minutiae of the problem.
 
@@ -38,12 +41,13 @@ That being said, we will likely have to go through the same steps as what I ment
 2. **How to debug code that runs correctly but produces incorrect results**
 This is a more nefarious problem with your code. It means all the parts of your code work well together, but they have been designed to do the wrong thing (e.g. you assembled a functional car but it only goes in reverse). It could involve you using incorrect logic, bad hyperparameters, forgetting to set a random seed, or many other factors.
  
-Typically, it is harder to ask for external help if you're at this stage. Since the logic is your own, you will learn a lot from finding the error yourself. As the author, you will also be best equipped to do this. Some things you can try are:
-- Write **clean, well-commented code** so you can easily find and recheck your logic. [Here](https://blog.alexdevero.com/6-simple-tips-writing-clean-code/) are some tips to write clean code.
-- **Check your logic.**
-- **Check for silly mistakes.** Are you loading the right data? Are you reusing a variable name? Are you setting the right parameters? Are you doing exactly what the requirement states? Have you conceptually understood the task your program is supposed to be doing? 
-- **Use print statements at intermediate points** in your program to make sure your variables are as you expect them to be.
-- Ensure you have set a **random seed** if required.
+Typically, it is harder to ask for external help if you're at this stage. Since the logic is your own, you will learn a lot from finding the error yourself. As the author, you will also be best equipped to do this. Exhaustively speaking, you need to go over each line and ensure that it does exactly what you expect it to do. In practice, this is easier said than done in a codebase of 100s or even 1000s of lines.
 
+Some steps worth trying are:
+- Write **clean, well-commented code** from the get-go. This makes it easier to find and recheck bits of logic. [Here](https://blog.alexdevero.com/6-simple-tips-writing-clean-code/) are some tips to write clean code.
+- **Double-, triple-, quatruple-check your logic.** If you have a flow-chart or pseudocode, check that, then check that your code translates it correctly.
+- **Check for silly mistakes.** Are you loading the right data? Are you reusing a variable name? Are you setting the right parameters? Are you doing exactly what the requirement states? Have you conceptually understood the task your program is supposed to be doing? 
+- **Use print statements at intermediate points** in your program to make sure your variables are as you expect them to be. With ML and DL, it is helpful to print the shapes of your arrays.
+- Ensure you have set the correct **random seed** if required.
 
 Good luck! Progamming is a powerful, versatile and elegant skill and I hope you are excited to pick it up.

@@ -19,16 +19,7 @@ layout: default
         {% include page-author.html %}
         {% include page-categories.html %}
         {% include page-tags.html %}
-        <div class="post-meta">
-          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
-
-            {%- if page.last_modified_at -%}
-                Last updated: {{ page.last_modified_at | date: date_format }}
-            {%- else -%}
-                Last updated: {{ page.date | date: date_format }}
-            {%- endif -%}
-          </time>
+        {% include page-last-updated.html %}
       </div>
 
       <div class="page-content">
