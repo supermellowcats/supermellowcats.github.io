@@ -3,6 +3,7 @@ layout: post
 title: Think like a debugger: how to get better faster
 categories: DataScience
 comments: true
+published: true
 excerpt: Reflections from teaching 2 quarters of 'Computer Science with Social Science Applications' at the University of Chicago
 tags: code teaching programming Python
 last_modified_at: 2021-09-23
