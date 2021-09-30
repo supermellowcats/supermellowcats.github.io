@@ -6,9 +6,14 @@ show_excerpts: false
 entries_layout: list
 ---
 
+
+<style>
+ul.a {list-style-type: square; size=1.5em}
+<\style>
+
 <ul>
   {% for post in site.categories.DataScience %}
-    <li style="list-style-type:square" size=1.5em>
+    <li class='a'>
       <h3 id="page-title" class="page-title p-name">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h3>
