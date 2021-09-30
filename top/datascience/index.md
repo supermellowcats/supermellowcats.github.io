@@ -8,8 +8,7 @@ entries_layout: list
 
 <ul>
   {% for post in site.categories.DataScience %}
-    <li::marker {font-size: 1.5em;
-          }>
+    <li style="list-style-type:square" size=1.5em>
       <h3 id="page-title" class="page-title p-name">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h3>
