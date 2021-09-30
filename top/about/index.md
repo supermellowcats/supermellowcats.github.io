@@ -7,7 +7,7 @@ My name is Aabir Abubaker Kar.
 
 I am a data scientist and data engineer, a machine learning researcher, and a data-driven strategy consultant. I've worked with data for 4 years on use-cases in data-driven business strategy, business intelligence, machine learning, deep learning, and AI. In the process, I have mastered an extensive range of methods from regressions to deep neural networks for NLP.
 
-My approach to data science is structured and result-oriented - see my [Thinking with Data Science](https://bakerwho.github.io/datascience/index.md) blog series to know more.
+My approach to data science is structured and result-oriented - see my [Thinking with Data Science](https://bakerwho.github.io/top/datascience/index.md) blog series to know more.
 
 You can read more about my projects [here](https://bakerwho.github.io/projects/). For those that involve code, you can find the source on my [Github](https://www.github.com/bakerwho).
 
