@@ -80,18 +80,25 @@ split_sentence = sentence.split(' ')
 sent_lower = [word.lower() for word in split_sentence]
 ```
 
-It might be faster to just say `sent_lower = sentence.lower().split(' ')`, but that doesn't teach you what a `for` loop is. This works even for higher level concepts in machine learning, data visualization, or distributed programming.
+It might be faster to just use `sent_lower = sentence.lower().split(' ')`, but that doesn't teach you what a `for` loop is. This works even for higher level concepts in machine learning, data visualization, or distributed programming.
 
-It isn't always necessary to understand every part of every tool you use. It is very efficient to be how to use someone else's solution that you found on StackOverflow or Google. It's good to abstract away complex units of tasks into functions or classes. This has several advantages:
+Your task is to learn what **level** of abstraction you should be operating at. It isn't always necessary, feasible, or possible to know every part of every tool you need. Learn when to just copy-paste someone else's solution that you found on StackOverflow or Google. Learn how and when to tweak to get what you need.
+
+<!--It's good to abstract away complex units of tasks into functions or classes. This has several advantages:
 - you will have logically designed and finite set of abstractions to test, instead of a massive unstructured code base with infinite plausible points of failure. This avoid using 100s of temporary variables in the `global` scope).
+-->
 
 ### Lesson 7: Learn to find the right resources when you're stuck
-Learn how to Google an error message. Know the correct part of the traceback to search. Become familiar with StackOverFlow, Github and its Issue and PR pages. Identify Google Groups or mailing lists of communities of users for more niche libraries or languages.
+Learn how to effectively Google an error message. Learn the correct parts of the traceback to search (maybe including your path `/Users/aabir/Documents/code/project_name` *won't* help your search results be relevant?). Become familiar with StackOverFlow, Github and its Issue and PR pages. Identify Google Groups or mailing lists of communities of users for more niche libraries or languages.
 
-For example,
+If your question hasn't been answered anywhere online, check again with a different search. Then again. And only then should you ask a human being. If you do need help from a human - ask for it comprehensively. Check back for a future post on how to do this!
+
+<!-- TODO: How to ask for help programming/debugging help blog post-->
 
 ### Lesson 8: Use print statements at intermediate points
-This is truly a golden hack sometimes, one that has helped me diagnose *countless* silly errors. Use `print()` to make sure your variables are as you expect them to be. With data cleaning, machine learning, and deep learning, it is very helpful to print the shapes of your arrays.
+This is truly a golden hack, one that has helped me diagnose *countless* silly errors. Use `print()` to make sure your variables are as you expect them to be. Use them liberally, as long as the results are visually understandable (maybe don't print 1000s of lines of output).
+
+Pro tip: With data cleaning, machine learning, and deep learning, it is very helpful to print the shapes of your arrays at intermediate points, especially before and after matrix multiplications.
 
 ### Lesson 9: Write tests
 How do you know that your code is failing? Are you running a code snippet that gives you an unexpected output? That code snippet is a test.
