@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Think like a debugger: how to get better at fixing code"
+title: "Think like a debugger: 10 lessons for fixing code faster"
 categories: DataScience
 comments: true
 published: true
