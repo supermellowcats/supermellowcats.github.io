@@ -9,5 +9,7 @@ _site
 *.sublime-workspace
 codekit-config.json
 Gemfile.lock
+Gemfile
+.jekyll-cache
 node_modules
 npm-debug.log*

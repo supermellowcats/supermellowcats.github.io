@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thinking with Data Science: a blog series
+title: "Thinking with Data Science: a blog series"
 categories: DataScience
 comments: true
 published: false
@@ -10,11 +10,17 @@ tags: code course data science analytics Python
 
 For the [sexiest job of the 21st century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century), there sure is a lot of confusion about what it means to be a Data Scientist. In my new blog series, I unpack this question with valuable thinking tools for anybody who aspires to learn, do, or hire Data Science.
 
-1. Who is a Data Scientist
-- Untangling concepts: Data Analysis, Data Science, Machine Learning, AI, Deep Learning
+Here's a conceptual itinerary:
+
+1. What is Data Science and do you need it?
+
+    a. Who is a Data Scientist?
+    b. Should you be hiring data scientists?
+    c. Are you hiring data scientists?
 2. The Data Asset and the Data Science Product
-    - operationalize a business problems using data
-    - Identifying the data asset and monetizing the data asset
+    - Data scientists operationalize a business problems using data
+    - Identify the data asset -> monetizing the data asset with a data science product
+    - $ value add for a project - data science team salary x project duration = ROI
     - Who is the customer? DS2enduser, DS2businessleader, DS2team, DS2DS
     - Applications of:
         - Decision Trees, regressions and other simple predictors/classifiers

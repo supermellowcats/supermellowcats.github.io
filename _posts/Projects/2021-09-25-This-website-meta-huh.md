@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Software: This website (is this meta?)"
+title: "Software: This website"
 comments: true
 categories: Projects
 tags:
