@@ -92,6 +92,15 @@ defaults:
       layout: post
       share: true
 
+# Collections structure
+collections:
+  - datascience:
+      output: true
+  - personal:
+      output: true
+  - projects:
+      output: true
+
 # Site Author
 author:
   name: Aabir Abubaker Kar
