@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Thoughtful Data Science
+layout: collection
+title: Data Science Blog
 search: true
 show_excerpts: true
 entries_layout: list
