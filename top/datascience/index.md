@@ -2,7 +2,7 @@
 layout: collection
 title: Data Science Blog
 search: true
-show_excerpts: false
+show_excerpts: true
 entries_layout: list
 ---
 
