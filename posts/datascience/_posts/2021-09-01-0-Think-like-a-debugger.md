@@ -4,7 +4,7 @@ title: "Think like a debugger: 10 lessons for fixing code faster"
 categories: DataScience
 comments: true
 published: true
-excerpt: Reflections from teaching 2 quarters of 'Computer Science with Social Science Applications' at the University of Chicago
+excerpt: "Reflections from teaching 2 quarters of 'Computer Science with Social Science Applications' at the University of Chicago"
 tags: code teaching programming Python
 ---
 

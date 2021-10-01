@@ -1,5 +1,8 @@
 # Sample site navigation bar links
 
+#- title: Test Page
+#  url: /top/test/
+
 - title: Home
   url: /
 
@@ -10,7 +13,7 @@
   url: /top/projects/
 
 #- title: Code
-#  url: htop/ttps://www.github.com/bakerwho
+#  url: https://www.github.com/bakerwho
 
 - title: Data Science Blog
   url: /top/datascience/

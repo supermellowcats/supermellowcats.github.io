@@ -1,6 +1,13 @@
+<!--
+commenting this 'unless' clause to print dates even for collections
+
 {%- unless page.layout == 'collection' -%}
-  <time class="entry-date dt-published" datetime="{{ entry.date | date_to_xmlschema }}">
-    {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
-    {{ entry.date | date: date_format }}
-  </time>
+-->
+<time class="entry-date dt-published" datetime="{{ entry.date | date_to_xmlschema }}">
+{%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
+{{ entry.date | date: date_format }}
+</time>
+
+<!--
 {%- endunless -%}
+-->

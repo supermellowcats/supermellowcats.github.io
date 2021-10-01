@@ -6,7 +6,8 @@ comments: true
 tags: theatre bits dojma
 ---
 
-![Blackbird Set](/images/2016/2016-08-24-Blackbird-Review_1.jpg "The set of Blackbird")
+<img src="/images/2016/2016-08-24-Blackbird-Review_1.jpg" alt="The set of Blackbird"
+title="The set of Blackbird - A603, BITS Goa" width="450" />
 
 ### Blackbird
 

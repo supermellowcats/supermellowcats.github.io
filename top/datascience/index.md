@@ -1,13 +1,17 @@
 ---
-layout: collection
-title: Data Science Blog
+layout: category
+title: Thoughtful Data Science
 search: true
+taxonomy: datascience
 show_excerpts: true
+sort_by: date
+sort_order: reverse
 entries_layout: list
 ---
 
+<!--
 <ul>
-  {% for post in site.categories.DataScience %}
+  {% for post in site.categories.datascience %}
     <li>
       <h5 id="page-title" class="page-title p-name">
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -18,3 +22,4 @@ entries_layout: list
     </li>
   {% endfor %}
 </ul>
+-->

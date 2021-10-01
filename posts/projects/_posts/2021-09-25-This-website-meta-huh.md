@@ -5,7 +5,7 @@ comments: true
 categories: Projects
 tags:
   - web development software jekyll website blog
-excerpt: I built this website that works ...
+excerpt: I used Jekyll to build this static website, using JS plugins for dynamic stuff  ...
 published: true
 ---
 

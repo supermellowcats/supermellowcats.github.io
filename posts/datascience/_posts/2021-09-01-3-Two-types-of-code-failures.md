@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "2 types of code failures and how to fix them"
+title: "Two types of code failures and how to fix them"
 categories: DataScience
 comments: true
 published: true
-excerpt: Two types of code failures
+excerpt: Dealing with loud and soft failures ...
 tags: code teaching programming Python
 last_modified_at: 2021-09-23
 ---

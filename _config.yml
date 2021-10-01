@@ -86,20 +86,18 @@ plugins:
 defaults:
   # Posts defaults
   - scope:
-      path: "_posts"
+      path: /posts/
       type: posts
     values:
       layout: post
       share: true
 
 # Collections structure
-collections:
-  - datascience:
-      output: true
-  - personal:
-      output: true
-  - projects:
-      output: true
+# collections:
+#  - datascience:
+#      output: true
+
+
 
 # Site Author
 author:

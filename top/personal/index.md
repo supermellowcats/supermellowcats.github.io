@@ -1,13 +1,17 @@
 ---
-layout: collection
+layout: category
 title: Personal
 search: true
-show_excerpts: false
+taxonomy: personal
+sort_by: date
+sort_order: reverse
+show_excerpts: true
 entries_layout: list
 ---
 
+<!--
 <ul>
-  {% for post in site.categories.Personal %}
+  {% for post in site.categories.personal %}
     <li>
       <h5 id="page-title" class="page-title p-name">
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -18,3 +22,4 @@ entries_layout: list
     </li>
   {% endfor %}
 </ul>
+-->

@@ -3,9 +3,7 @@ layout: post
 title: Welcome to the Machine
 comments: true
 categories: Personal
-tags:
-  - helloworld
-hidden: false
+tags: helloworld
 ---
 
 Change is good.
