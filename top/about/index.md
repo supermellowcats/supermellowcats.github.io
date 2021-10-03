@@ -25,17 +25,21 @@ In my 4 years working with data, I've had the good fortune to work with some ama
 - [International Centre for Theoretical Sciences, Bangalore](https://www.icts.res.in/) (Bengaluru, India), where I adapted advanced machine learning to the problem of monsoon prediction
 - [New England Complex Systems Institute](http://necsi.edu/) (Cambridge, USA), where I analyzed terabytes of operations logs to build data-driven business intelligence
 
+### Research
+
+My research interests are in the intersection of AI and society - including political polarization, accuracy and bias in information, and knowledge bases.
+
+
+
 ### Education at UChicago
 
-I earned a [Master of Arts in Computational Social Science](https://macss.uchicago.edu/) at **The University of Chicago**. This unique STEM program allowed me do coursework in Machine Learning, Computer Science, Development Economics, Sociology, Political Science, Anthropology, and Public Policy.
+I earned a [Master of Arts in Computational Social Science](https://macss.uchicago.edu/) at **The University of Chicago**. I like to describe it as 'data science with social data' - using quantitative methods to understand our increasingly digital footprints and behaviors.
 
-In Chicago, I was a Machine Learning Researcher at [The Knowledge Lab](https://www.knowledgelab.org/), investigating how deep learning models respond to deliberately corrupted data. This was the crux of my Master's thesis, titled "Common sense reasoning against algorithmic misinformation using Knowledge Graph Embeddings". Reach out for a copy! I also consulted closely with researchers at the [Computer Science Department](https://computerscience.uchicago.edu/) and the [Toyota Technical Institute at Chicago](https://www.ttic.edu/) during this time.
+I did coursework in a wide array of fields - Machine Learning, Computer Science, Development Economics, Sociology, Political Science, Anthropology, and Public Policy. I was also a Machine Learning Researcher at [The Knowledge Lab](https://www.knowledgelab.org/), investigating how deep learning models respond to deliberately corrupted data. This was the crux of my Master's thesis, titled "Common sense reasoning against algorithmic misinformation using Knowledge Graph Embeddings". Reach out for a copy! I consulted closely with researchers at the [Computer Science Department](https://computerscience.uchicago.edu/) and the [Toyota Technical Institute at Chicago](https://www.ttic.edu/) during this time.
 
 ### Education at BITS
 
-During my undergraduate education, I also earned a Master's in an accelerated 5-year program. I hold a **BE in Engineering** and an **MSc in Physics** from BITS Pilani, Goa Campus in India. I also hold from BITS a Minor Certificate in Philosophy, Economics and Politics.
-
-My research interests are in the intersection of AI and society - including political polarization, bias in news media, and the structure of knowledge bases. As a social scientist, I'm also deeply interested in theories of individual and shared knowledge, learning, and cognition.
+I hold a **BE in Engineering** and an **MSc in Physics** from BITS Pilani, Goa Campus in India. I earned the tag-along Master's through an accelerated 5-year program. I also hold from BITS a Minor Certificate in Philosophy, Economics and Politics.
 
 ### Talk about ideas, events, people (in no particular order)
 
