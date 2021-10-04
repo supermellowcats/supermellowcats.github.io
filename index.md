@@ -6,3 +6,5 @@ limit: 20
 show_excerpts: true
 entries_layout: list
 ---
+
+Welcome to my blog. I write about (data science)[https://bakerwho.github.io/top/datascience]. I also document my (projects)[https://bakerwho.github.io/top/projects] and (random thoughts, poems, and other pieces)[https://bakerwho.github.io/top/datascience].
