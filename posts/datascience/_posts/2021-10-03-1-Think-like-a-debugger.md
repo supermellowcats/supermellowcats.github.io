@@ -34,6 +34,8 @@ If you're learning at your own pace, it's additionally important to:
 
 Depending on your learning style, documenting your understanding (as well as the specifics of programming assignments) with notes, diagrams, or to-do lists may also be extremely helpful.
 
+Most importantly, **take a break** - sometimes the error will be staring you in the face when you come back in 15 minutes.
+
 ### Lesson 2: Don't aim to write bug-free code, aim to get good at fixing bugs
 
 Everyone, even seasoned programmers, write buggy code. The mark of a seasoned programmer is not the ability to write bug-free code the first time - it is the ability to read an error message and instantly, even instinctively, know exactly how to fix it. More than anything, this comes from experience - **it will never take you hours to fix the same bug the second time**.
@@ -68,7 +70,12 @@ The first time you encounter certain type of bug can be incredibly frustrating -
 
 This is the only way to ensure that your **second** time fixing the same type of bug is quick and painless. Make your effort and time count the first time!
 
-### Lesson 6: Become comfortable with the right level of abstraction
+### Lesson 6: Use print statements at intermediate points
+This is truly a golden hack, one that has helped me diagnose *countless* silly errors. Use `print()` to make sure your variables are as you expect them to be. Use them liberally, as long as the results are visually understandable (maybe don't print 1000s of lines of output).
+
+Pro tip: With data cleaning, machine learning, and deep learning, it is very helpful to print the shapes of your arrays at intermediate points, especially before and after matrix multiplications.
+
+### Lesson 6: Don't reinvent the wheel, unless it's to learn how to build a wheel
 
 When you're coding professionally, programming is about never, ever, reinventing the wheel - unless there's a really good reason to. It tends to be expensive in time, money, and maintenance.
 
@@ -94,11 +101,6 @@ Learn how to effectively Google an error message. Learn the correct parts of the
 If your question hasn't been answered anywhere online, check again with a different search. Then again. And only then should you ask a human being. If you do need help from a human - ask for it comprehensively. Check back for a future post on how to do this!
 
 <!-- TODO: How to ask for help programming/debugging help blog post-->
-
-### Lesson 8: Use print statements at intermediate points
-This is truly a golden hack, one that has helped me diagnose *countless* silly errors. Use `print()` to make sure your variables are as you expect them to be. Use them liberally, as long as the results are visually understandable (maybe don't print 1000s of lines of output).
-
-Pro tip: With data cleaning, machine learning, and deep learning, it is very helpful to print the shapes of your arrays at intermediate points, especially before and after matrix multiplications.
 
 ### Lesson 9: Write tests
 How do you know that your code is failing? Are you running a code snippet that gives you an unexpected output? That code snippet is a test.

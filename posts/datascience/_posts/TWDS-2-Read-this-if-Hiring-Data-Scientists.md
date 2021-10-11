@@ -4,7 +4,7 @@ title: "Part 1b: Hiring Data Scientists? Read this"
 categories: DataScience
 comments: true
 published: false
-excerpt: Beat the hype, hire the right type of Data Scientist
+excerpt: Two parameters to hire the right type of Data Scientist
 tags: code course data science analytics Python
 ---
 
@@ -27,3 +27,7 @@ tags: code course data science analytics Python
 ### Question 2f: Do they need someone who can identify data projects with demonstrable business value and work a combination of the roles described (often with support) to build those projects?
 
 ## START
+
+What will a data scientists do at this organization? Identify at least 5 use cases for data science.
+
+If you're in charge of this hiring decision, you need to first know exactly what data science **can and should do** for your organization. Then, you need to find the **right data scientist** for the job. Let's unpack how to answer these two questions.

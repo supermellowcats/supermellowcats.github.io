@@ -4,7 +4,7 @@ title: 'Part 2: The Data Asset and the Data Science Product'
 categories: DataScience
 comments: true
 published: false
-excerpt: "'What is the data asset?' is the most important question"
+excerpt: "The two most important questions a Data Scientist should be able to answer ..."
 tags: code course data science analytics Python
 ---
 
@@ -20,6 +20,23 @@ tags: code course data science analytics Python
     - Natural Language Processing
     - Clustering
     - Causal inference (hypothesis testing, A/B testing)
+- Intelligent contact center
+    - Enhance your customer service experience and reduce costs by integrating machine learning into your contact center.
+
+- Personalization
+    - Improve customer engagement and conversion by creating personalized web experiences—tailored to individual customer preferences and behaviors across channels.
+- Intelligent document processing
+    - Instantly extract text and data from virtually any document such as loan applications and medical forms without manual effort.
+- Intelligent search
+    - Boost business productivity and customer satisfaction by delivering accurate and useful information faster from siloed and unstructured information sources across the organization.
+- Fraud detection
+    - Improve profitability by automating the detection of potentially fraudulent online activity, such as payment fraud and fake accounts, using machine learning and your own unique data.
+- Media intelligence
+    - Maximize the value of media content by adding machine learning to media workflows such as search and discovery, content localization, compliance, monetization, and more.
+- Business forecasting
+    - Accurately predict demand forecasting and streamline supply-demand decision to combine historical time series data with additional variables such as product features, pricing, and holidays.
+
+[AWS ML use cases](https://aws.amazon.com/machine-learning/)
 
 ## START
 

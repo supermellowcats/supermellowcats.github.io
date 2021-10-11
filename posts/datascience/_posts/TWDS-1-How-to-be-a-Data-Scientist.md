@@ -24,10 +24,11 @@ Aspiring data scientists are pushed to acquire a range of skills at breakneck pa
 - Machine Learning
 - Deep Learning & AI
 - Data visualization and dashboarding tools (like Plot.ly, ggplot, matplotlib)
-- Jupyter notebooks and other tools for rapid prototyping (like Databricks)
-- Cloud technologies (including the host of sub-services offered by giants like Amazon Web Services, Google Cloud P, Microsoft Azure)
-- Software engineering tools and best practices (like Github, VCS, Docker, Jira)
+- Jupyter notebooks and other tools for rapid prototyping (like Databricks or Magellan)
+- Cloud technologies (including the host of sub-services offered by giants like Amazon Web Services, Google Cloud Platform, Microsoft Azure)
+- Software engineering tools and best practices (like Github, VCS, Docker)
 - MLOps tools and best practices (like Airflow)
+- Project management strategies and tools (like Jira or Trello)
 
 In this post, I will map these skills to sub-projects within Data Science. If you're a current or aspiring data scientist, this will help you figure out your strengths and interests in the field, and how to pursue them.
 
