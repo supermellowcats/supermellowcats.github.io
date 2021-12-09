@@ -20,6 +20,17 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 ## Three steps to getting a job
 
 1.  **Do: Decide which job/s you want**
+    **Do not: Chase a bad fit**
+
+2.  **Do: Learn and practice skills for the job/s you want**
+    **Do not: Beat yourself up if you find something difficult or need time or rest while learning**
+
+3.  **Do: Get interviews, keep interviewing until you get an offer**
+    **Do not: Take rejection personally**
+
+That's it. Those are the three steps. Make sure to avoid the **do not**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment. Time to unpack them some more.
+
+1.  **Do: Decide which job/s you want**
 
     Know the name of each role you might be interested in. Have ready a list of places that are hiring for it. Know what's on their job descriptions. Talk to people working in those roles. Learn how the industry works and what's changing. Re-evaluate if their experiences match your expectations and goals. Ensure there is a feasible path to acquiring any skills you might need. Fix the positions you want to apply for.
     "But it's so dehumanizing to attach my entire identity to a job description ugh I'm more than just a list of skills." - old angsty me
@@ -33,7 +44,7 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 
     Once you know specifically what types of work you want to be doing - **get better at the doing by doing!** This can be an incredibly fun and inexpensive process - unless you go to school for it, hehe. Even so, the sense of purpose and drive instilled by a new project can be very satisfying. Learn for free if you can (I got started coding with help from YouTube and random ebooks). Importantly, **do projects**. Projects, even simple toy ones, help you formulate a problem in your field and solve it. That might sound lame at first, but it's a powerful thinking tool - like being in a job simulator. In my view, learning a skill without channeling them into projects is wasteful and leads to incomplete retention of the skill. Nice bonus - your projects are most of what you'll list on your resume and talk about in your interviews.
 
-    **Do not: Feel incompetent if you find something difficult or need time or rest while learning**
+    **Do not: Beat yourself up if you find something difficult or need time or rest while learning**
 
     Many people, especially immigrants in the US, suffer from impostor syndrome. A friend getting her PhD once quipped "I feel like I have to work twice as hard just to prove I deserve to be here" - that stings with truth. It's easy to feel like you're not good enough, like anybody would be crazy to hire you, or like you have little to offer. Tell that voice in your head to go away. **You have skills and time and energy**. And you have the incredible luxury of deciding how to channel that force in your life. **Go from thinking 'somebody anybody please employ me' to 'it would be actually be nice to work here/do this with my time'.**
     Say it out loud with me - **I am not looking for a job that makes me feel bad about myself.** A great work environment is one where people feel empowered to get exactly the support they need to solve problems - not one where people feel constantly alone and under threat of failure.
@@ -50,9 +61,8 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
     	title="Love to see 'regret to be inform you'"/>
     There is no useful feedback in any of these emails. Still, my self-loathing would activate every single time - "Ah yes I too regret to be informed that I will obviously die unemployed and vilified as a skill-less con artist."
 
-    That's it. Those are the three steps. Make sure to avoid the **do not**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment.
 
-A few closing thoughts:
+I hope this helps you. A few closing thoughts:
 
 - If you **did** get interviewed and were rejected - that can be powerful feedback. Someone seriously evaluated you for the position, and then chose someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit for your profile yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to say. Seemingly random experiences can sometimes make or break a fit, so sometimes, it's just chance. It is **okay** to not be certain why you got rejected. It is **not okay** to beat yourself up about it.
 - Interviews should be a place where both, the employer and the employee review **each other**. You should feel empowered to say no to an employer if they don't match your expectations or goals. Of course, as an immigrant who was desperately seeking my first post-Master's job, this is an entirely theoretical hill I choose to die on.
