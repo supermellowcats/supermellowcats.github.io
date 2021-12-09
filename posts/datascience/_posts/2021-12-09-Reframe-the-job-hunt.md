@@ -19,28 +19,31 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 
 ## Three steps to getting a job
 
-1. **Do: Decide which job/s you want**
+1.  **Do: Decide which job/s you want**
 
-Know the name of each role you might be interested in. Have ready a list of places that are hiring for it. Know what's on their job descriptions. Talk to people working in those roles. Learn how the industry works and what's changing. Re-evaluate if their experiences match your expectations and goals. Ensure there is a feasible path to acquiring any skills you might need. Fix the positions you want to apply for.
-"But it's so dehumanizing to attach my entire identity to a job description ugh I'm more than just a list of skills." - old angsty me
-In retrospect, that attitude was not helpful.
+    Know the name of each role you might be interested in. Have ready a list of places that are hiring for it. Know what's on their job descriptions. Talk to people working in those roles. Learn how the industry works and what's changing. Re-evaluate if their experiences match your expectations and goals. Ensure there is a feasible path to acquiring any skills you might need. Fix the positions you want to apply for.
+    "But it's so dehumanizing to attach my entire identity to a job description ugh I'm more than just a list of skills." - old angsty me
+    In retrospect, that attitude was not helpful.
 
     **Do not: Chase a bad fit**
+
     Sometimes, we want a job that we **can't** have (at least not today) - we may need to sharpen our skills or acquire new ones. Sometimes, we want a job that we **shouldn't** have - it would make us unhappy or unfulfilled. Some people are simply not suited for certain career paths - for example, I would make an awful consultant because I like to not be sad (I'm kidding). When evaluating a career or job, it's important to know your capacities and needs regarding  skills you have, your ability to learn new skills, your capacity for stress or unpredictability, your preferred management/mentorship style, working hours, or communication preferences.
 
-2. **Do: Learn and practice skills for the job/s you want**
+2.  **Do: Learn and practice skills for the job/s you want**
 
-Once you know specifically what types of work you want to be doing - **get better at the doing by doing!** This can be an incredibly fun and inexpensive process - unless you go to school for it, hehe. Even so, the sense of purpose and drive instilled by a new project can be very satisfying. Learn for free if you can (I got started coding with help from YouTube and random ebooks). Importantly, **do projects**. Projects, even simple toy ones, help you formulate a problem in your field and solve it. That might sound lame at first, but it's a powerful thinking tool - like being in a job simulator. In my view, learning a skill without channeling them into projects is wasteful and leads to incomplete retention of the skill. Nice bonus - your projects are most of what you'll list on your resume and talk about in your interviews.
+    Once you know specifically what types of work you want to be doing - **get better at the doing by doing!** This can be an incredibly fun and inexpensive process - unless you go to school for it, hehe. Even so, the sense of purpose and drive instilled by a new project can be very satisfying. Learn for free if you can (I got started coding with help from YouTube and random ebooks). Importantly, **do projects**. Projects, even simple toy ones, help you formulate a problem in your field and solve it. That might sound lame at first, but it's a powerful thinking tool - like being in a job simulator. In my view, learning a skill without channeling them into projects is wasteful and leads to incomplete retention of the skill. Nice bonus - your projects are most of what you'll list on your resume and talk about in your interviews.
 
     **Do not: Feel incompetent if you find something difficult or need time or rest while learning**
+
     Many people, especially immigrants in the US, suffer from impostor syndrome. A friend getting her PhD once quipped "I feel like I have to work twice as hard just to prove I deserve to be here" - that stings with truth. It's easy to feel like you're not good enough, like anybody would be crazy to hire you, or like you have little to offer. Tell that voice in your head to go away. **You have skills and time and energy**. And you have the incredible luxury of deciding how to channel that force in your life. **Go from thinking 'somebody anybody please employ me' to 'it would be actually be nice to work here/do this with my time'.**
     Say it out loud with me - **I am not looking for a job that makes me feel bad about myself.** A great work environment is one where people feel empowered to get exactly the support they need to solve problems - not one where people feel constantly alone and under threat of failure.
 
-3. **Do: Get interviews, keep interviewing until you get an offer**
+3.  **Do: Get interviews, keep interviewing until you get an offer**
 
-Get good at applying for jobs. Success = interview, nothing else. You should be improving your odds of getting and interview at every step of the pipeline. Fit your resume to the job description without lying (there are cool tools that help you do this - search 'resume scanner'). Get that referral, get every referral - each referral has a 1000x chance of an interview than sending a PDF into the void. Cold message people on LinkedIn - ask for a referral, to chat, whatever. Go to conferences and job fairs. Keep expectations low and regularity high. Set small, manageable targets. Put more time and effort into 'dream jobs'. Take care of yourself. Manage your mental health, stress, and anxiety.
+    Get good at applying for jobs. Success = interview, nothing else. You should be improving your odds of getting and interview at every step of the pipeline. Fit your resume to the job description without lying (there are cool tools that help you do this - search 'resume scanner'). Get that referral, get every referral - each referral has a 1000x chance of an interview than sending a PDF into the void. Cold message people on LinkedIn - ask for a referral, to chat, whatever. Go to conferences and job fairs. Keep expectations low and regularity high. Set small, manageable targets. Put more time and effort into 'dream jobs'. Take care of yourself. Manage your mental health, stress, and anxiety.
 
     **Do not: Take rejection personally**
+
     An email rejection contains no useful information and is meaningless.** Resumes, especially 1-pagers cannot be be used to rank people in any meaningful way. People hack them all the time (and so should you, without lying). This is why you should focus all your attention on shooting for an interview, and not on missed shots. **Only post-interview rejection is worth introspecting over.**
 
     <img src="/images/2021/rejection_emails.png" alt="boilerplate recycled text in every rejection email"
