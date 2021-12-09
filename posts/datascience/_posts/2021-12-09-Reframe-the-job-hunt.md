@@ -20,12 +20,15 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 ## Three steps to getting a job
 
 1.  **Do: Decide which job/s you want**
+
     **Do not: Chase a bad fit**
 
 2.  **Do: Learn and practice skills for the job/s you want**
+
     **Do not: Beat yourself up if you find something difficult or need time or rest while learning**
 
 3.  **Do: Get interviews, keep interviewing until you get an offer**
+
     **Do not: Take rejection personally**
 
 That's it. Those are the three steps. Make sure to avoid the **do not**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment. Time to unpack them some more.
