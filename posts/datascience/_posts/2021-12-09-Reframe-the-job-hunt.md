@@ -37,7 +37,7 @@ Once you know specifically what types of work you want to be doing - **get bette
 3. **Do: Get interviews, keep interviewing until you get an offer**
 Get good at applying for jobs. Success = interview, nothing else. You should be improving your odds of getting and interview at every step of the pipeline. Fit your resume to the job description without lying (there are cool tools that help you do this - search 'resume scanner'). Get that referral, get every referral - each referral has a 1000x chance of an interview than sending a PDF into the void. Cold message people on LinkedIn - ask for a referral, to chat, whatever. Go to conferences and job fairs. Keep expectations low and regularity high. Set small, manageable targets. Put more time and effort into 'dream jobs'. Take care of yourself. Manage your mental health, stress, and anxiety.
 
-    **Do not: take rejection personally
+    **Do not: Take rejection personally
     An email rejection contains no useful information and is meaningless.** Resumes, especially 1-pagers cannot be be used to rank people in any meaningful way. People hack them all the time (and so should you, without lying). This is why you should focus all your attention on shooting for an interview, and not on missed shots. **Only post-interview rejection is worth introspecting over.**
 
     <img src="/images/2021/rejection_emails.png" alt="boilerplate recycled text in every rejection email"
