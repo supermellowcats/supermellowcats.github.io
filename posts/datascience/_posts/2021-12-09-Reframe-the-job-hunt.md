@@ -64,7 +64,7 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
 
     **DO NOT: Take rejection personally**
 
-    An email rejection contains no useful information and is meaningless.** Resumes, especially 1-pagers cannot be be used to rank people in any meaningful way. People hack them all the time (and so should you, without lying). This is why you should focus all your attention on shooting for an interview, and not on missed shots. **Only post-interview rejection is worth introspecting over.**
+    **An email rejection never contains constructive feedback and should not be treated as feedback at all**. Resumes, especially 1-pagers cannot be be used to rank people in any meaningful way. People hack them all the time (and so should you, without lying). This is why you should focus all your attention on shooting for an interview, and not on missed shots. **Only post-interview rejection is worth introspecting.**
 
     <img src="/images/2021/rejection_emails.png" alt="boilerplate recycled text in every rejection email"
     	title="Love to see 'regret to be inform you'"/>
