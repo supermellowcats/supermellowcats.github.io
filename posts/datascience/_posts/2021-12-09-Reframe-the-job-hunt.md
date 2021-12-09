@@ -48,7 +48,7 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 
     <img src="/images/2021/rejection_emails.png" alt="boilerplate recycled text in every rejection email"
     	title="Love to see 'regret to be inform you'"/>
-    There is no useful feedback in any of these emails. Still, my self-loathing would activate every single time - "ah yes I too regret to be informed that I will obviously die unemployed and vilified as a skill-less con artist."
+    There is no useful feedback in any of these emails. Still, my self-loathing would activate every single time - "Ah yes I too regret to be informed that I will obviously die unemployed and vilified as a skill-less con artist."
 
     That's it. Those are the three steps. Make sure to avoid the **do not**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment.
 
