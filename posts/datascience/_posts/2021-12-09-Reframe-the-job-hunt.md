@@ -4,7 +4,7 @@ title: "Reframe the job-hunt OR How to get a job"
 categories: DataScience
 comments: true
 published: true
-excerpt: It was stressful. Here's what I learned ...
+excerpt: Finding a job was rough. Here's what I learned ...
 tags: employment jobhunt skills apply
 last_modified_at: 2021-12-09
 ---
@@ -54,7 +54,7 @@ That's it. Those are the three steps. Make sure to avoid the **do not**'s, those
 
 A few closing thoughts:
 
-- If you **did** get interviewed and were rejected - that can be powerful feedback. Someone seriously evaluated you for the position, and went with someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to say. Seemingly random experiences can sometimes make or break a fit, so sometimes, it's just chance. It's okay to not always be certain why you got rejected. It's not okay to beat yourself up about it.
+- If you **did** get interviewed and were rejected - that can be powerful feedback. Someone seriously evaluated you for the position, and then chose someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit for your profile yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to say. Seemingly random experiences can sometimes make or break a fit, so sometimes, it's just chance. It is **okay** to not be certain why you got rejected. It is **not okay** to beat yourself up about it.
 - Interviews should be a place where both, the employer and the employee review **each other**. You should feel empowered to say no to an employer if they don't match your expectations or goals. Of course, as an immigrant who was desperately seeking my first post-Master's job, this is an entirely theoretical hill I choose to die on.
 - Remember - a job exists to take advantage of your skills and channel them into something that is (ideally) making a profit. Even a great job, a dream job will ultimately have that bottom line that makes you valuable to the organization. The nice part is good jobs can facilitate a mutually beneficial relationship where you get to learn, grow, and get paid. Don't get attached to places that didn't want you in the first place.
 - Say to yourself everyday: I belong. I have skills. My self-worth is not tied to the status of my job-hunt.
