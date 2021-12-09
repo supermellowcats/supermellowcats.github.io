@@ -27,7 +27,7 @@ url: "https://bakerwho.github.io"
 logo: "/images/general/favicon_large.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
-words_per_minute: 200
+words_per_minute: 400
 mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
