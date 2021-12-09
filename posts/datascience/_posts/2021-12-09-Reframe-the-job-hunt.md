@@ -60,7 +60,7 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
 
 3.  **DO: Get interviews, keep interviewing until you get an offer**
 
-    Get good at applying for jobs. Success = interview, nothing else. You should be improving your odds of getting and interview at every step of the pipeline. Fit your resume to the job description without lying (there are cool tools that help you do this - search 'resume scanner'). Get that referral, get every referral - each referral has a 1000x chance of an interview than sending a PDF into the void. Cold message people on LinkedIn - ask for a referral, to chat, whatever. Go to conferences and job fairs. Keep expectations low and regularity high. Set small, manageable targets. Put more time and effort into 'dream jobs'. Take care of yourself. Manage your mental health, stress, and anxiety.
+    Get good at applying for jobs. Success = interview, nothing else. You should be improving your odds of getting an interview at every step of the pipeline. Fit your resume to the job description without lying (there are cool tools that help you do this - search 'resume scanner'). Get that referral, get every referral - each referral has a 1000x chance of an interview than sending a PDF into the void. Cold message people on LinkedIn - ask for a referral, to chat, whatever. Go to conferences and job fairs. Keep expectations low and regularity high. Set small, manageable targets. Put more time and effort into 'dream jobs'. Take care of yourself. Manage your mental health, stress, and anxiety.
 
     **DO NOT: Take rejection personally**
 
