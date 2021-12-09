@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reframe the job-hunt || How to get a job"
+title: "Reframe the job-hunt OR How to get a job"
 categories: DataScience
 comments: true
 published: true
@@ -20,15 +20,15 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 ## Three steps to getting a job
 
 1. **Do: Decide which job/s you want**
-Know ****the name of each role you want. Have a list of places that are hiring for it. Know what's on their job descriptions. Talk to people working in those roles. Re-evaluate if those experiences match your expectations. Finalize what you want.
+Know the name of each role you might be interested in. Have ready a list of places that are hiring for it. Know what's on their job descriptions. Talk to people working in those roles. Learn how the industry works and what's changing. Re-evaluate if their experiences match your expectations and goals. Ensure there is a feasible path to acquiring any skills you might need. Fix the positions you want to apply for.
 "But it's so dehumanizing to attach my entire identity to a job description ugh I'm more than just a list of skills." - old angsty me
-In retrospect, that attitude was not helpful. See below for tips on reframing the job hunt.
+In retrospect, that attitude was not helpful.
 
     **Do not: Chase a bad fit.**
-    Sometimes, we want a job that we **can't** have (at least not today) - we may need to get better at the required skills. Sometimes, we want a job that we **shouldn't** have - it would make us unhappy or unfulfilled. Some people are simply not suited for some career paths - for example, I would make an awful consultant because I like to not be sad (kidding). When evaluating a career or job, it's important to know your capacities and needs regarding existing skills + ability to learn new ones, management/mentorship style, working hours, communication preferences, stress management.
+    Sometimes, we want a job that we **can't** have (at least not today) - we may need to sharpen our skills or acquire new ones. Sometimes, we want a job that we **shouldn't** have - it would make us unhappy or unfulfilled. Some people are simply not suited for certain career paths - for example, I would make an awful consultant because I like to not be sad (I'm kidding). When evaluating a career or job, it's important to know your capacities and needs regarding  skills you have, your ability to learn new skills, your capacity for stress or unpredictability, your preferred management/mentorship style, working hours, or communication preferences.
 
 2. **Do: Learn and practice skills for the job/s you want**
-Once you know specifically what you want to be doing - **get better at doing it!** This can be an incredibly fun process, and inexpensive too. The sense of purpose and drive instilled by a new project can be very satisfying. Learn for free if you can (I got started coding with help from YouTube and random ebooks). Importantly, **do projects**. Projects, even simple toy ones, help you formulate a problem in your field and solve it. That might sound lame at first, but it's a powerful thinking tool - like being in a job simulator. In my view, learning a skill without channeling them into projects is wasteful and leads to incomplete retention of the skill. Nice bonus - your projects are most of what you'll list on your resume and talk about in your interviews.
+Once you know specifically what types of work you want to be doing - **get better at the doing by doing!** This can be an incredibly fun and inexpensive process - unless you go to school for it, hehe. Even so, the sense of purpose and drive instilled by a new project can be very satisfying. Learn for free if you can (I got started coding with help from YouTube and random ebooks). Importantly, **do projects**. Projects, even simple toy ones, help you formulate a problem in your field and solve it. That might sound lame at first, but it's a powerful thinking tool - like being in a job simulator. In my view, learning a skill without channeling them into projects is wasteful and leads to incomplete retention of the skill. Nice bonus - your projects are most of what you'll list on your resume and talk about in your interviews.
 
     **Do not: Feel incompetent if you find something difficult or need time or rest while learning.**
     Many people, especially immigrants in the US, suffer from impostor syndrome. A friend getting her PhD once quipped "I feel like I have to work twice as hard just to prove I deserve to be here" - that stings with truth. It's easy to feel like you're not good enough, like anybody would be crazy to hire you, or like you have little to offer. Tell that voice in your head to go away. **You have skills and time and energy**. And you have the incredible luxury of deciding how to channel that force in your life. **Go from thinking 'somebody anybody please employ me' to 'it would be actually be nice to work here/do this with my time'.**
@@ -44,24 +44,27 @@ Get good at applying for jobs. Success = interview, nothing else. You should be 
     	title="Love to see 'regret to be inform you'"/>
     There is no useful feedback in any of these emails. Still, my self-loathing would activate every single time - "ah yes I too regret to be informed that I will obviously die unemployed and vilified as a skill-less con artist."
 
-That's it. Those are the three steps. Don't fall for the **do not**'s, those can be tricky. But honesly, there is no other way to successfully and legally seek employment.
+That's it. Those are the three steps. Make sure to avoid the **do not**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment.
 
 A few closing thoughts:
 
-- If you **did** get interviewed and got a rejection - that is powerful feedback. Someone seriously evaluated you for the position, and went with someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to say. Seemingly random experiences can sometimes make or break a fit, so sometimes, it's just chance - be prepared to not always be certain why you got rejected.
-- Interviews should be a place where both, the employer and the employee review **each other**. You should feel empowered to say no to an employer if they don't match your expectations or goals. Of course, as an immigrant who was desperately seeking my first post-Master's job, this was an entirely theoretical hill I chose to die on.
-- Remember - a job exists to take advantage of your skills and channel them into something that is (ideally) making a profit. Even a great job, a dream job will ultimately have that bottom line - the nice part is that it can facilitate a mutually beneficial relationship where you get to learn, grow, and get paid. Don't get attached to places that didn't want you in the first place.
+- If you **did** get interviewed and were rejected - that can be powerful feedback. Someone seriously evaluated you for the position, and went with someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to say. Seemingly random experiences can sometimes make or break a fit, so sometimes, it's just chance. It's okay to not always be certain why you got rejected. It's not okay to beat yourself up about it.
+- Interviews should be a place where both, the employer and the employee review **each other**. You should feel empowered to say no to an employer if they don't match your expectations or goals. Of course, as an immigrant who was desperately seeking my first post-Master's job, this is an entirely theoretical hill I choose to die on.
+- Remember - a job exists to take advantage of your skills and channel them into something that is (ideally) making a profit. Even a great job, a dream job will ultimately have that bottom line that makes you valuable to the organization. The nice part is good jobs can facilitate a mutually beneficial relationship where you get to learn, grow, and get paid. Don't get attached to places that didn't want you in the first place.
+- Say to yourself everyday: I belong. I have skills. My self-worth is not tied to the status of my job-hunt.
 
 **How we think powerfully affects what we do and how we do it. I wish you a minimally stressful and maximally rewarding job hunt. Nothing can stop you when you start doing what feels right to do.**
 
+---
+
 **Notes**
 
-In thinking through this post, I formulated the **job-hunt** as a Multi-Armed Bandit Problem (MABP).
+In thinking through this post, it helped me to formulate the job-hunt as a Multi-Armed Bandit Problem (MABP).
 
 The MABP is a popular trope in machine learning and probability that illustrates of the **explore-exploit** problem. Imagine a casino with an array of slot machines (the kind with a hand-crank, also called a **one-armed bandit** because it has one arm and robs you of your cash). Each slot machine has different odds for each $ payout. A gambler with infinite money steps in, ready to make more infinities. He has to solve the problem of maximizing his payout by **exploring** the behavior of the machines to find good strategies, while also **exploiting** those strategies. It is a fine balance to strike, as the two cannot be done simultaneously.
 
 How does this apply to the job hunt? Well, each slot machine is just a job application. You have fixed odds at getting an interview out of each job, and your job is to maximize those odds. You're trying to get as many shots as interviews as possible but can only tailor your application to one position at at time. So you have to iteratively build skills, present a resume/application that shows how you're suited to a job, then interview for it - for multiple jobs with overlapping skillsets at different organizations. You have to **explore** skills, fields, learning paths, projects, and careers - while **exploiting** your natural strengths, your available resources (like time, energy, the internet, universities, money) and your capacity.
 
-Personally, I'd rather not think of **exploiting** myself - so I frame it as functioning at a healthy and sustainable capacity.
+Personally, I'd rather not think of **exploiting** myself - so I reframe it as functioning at a healthy and sustainable capacity.
 
 Maybe I'll write more on thinking with the MABP in the future - let me know if you're interested in the comments below.
