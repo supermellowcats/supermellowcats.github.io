@@ -41,7 +41,7 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
 
     *"But it's so dehumanizing to attach my entire identity to a job description ugh am I not more than just a list of skills."*
 
-    - *old angsty me*
+    &ndash; *old angsty me*
 
     In retrospect, this attitude was not helpful.
 
@@ -67,7 +67,7 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
     **An email rejection never contains constructive feedback and should not be treated as feedback at all**. Resumes, especially 1-pagers cannot be be used to rank people in any meaningful way. People hack them all the time (and so should you, without lying). This is why you should focus all your attention on shooting for an interview, and not on missed shots. **Only post-interview rejection is worth introspecting.**
 
     <img src="/images/2021/rejection_emails.png" alt="boilerplate recycled text in every rejection email"
-    	title="Love to see 'regret to be inform you'"/>
+    	title="Love to see 'regret to inform you'"/>
     There is no useful feedback in any of these emails. Still, my self-loathing would activate every single time - "Ah yes I too regret to be informed that I will obviously die unemployed and vilified as a skill-less con artist."
 
 
@@ -88,7 +88,7 @@ In thinking through this post, it helped me to formulate the job-hunt as a Multi
 
 The MABP is a popular trope in machine learning and probability that illustrates of the **explore-exploit** problem. Imagine a casino with an array of slot machines (the kind with a hand-crank, also called a **one-armed bandit** because it has one arm and robs you of your cash). Each slot machine has different odds for each $ payout. A gambler with infinite money steps in, ready to make more infinities. He has to solve the problem of maximizing his payout by **exploring** the behavior of the machines to find good strategies, while also **exploiting** those strategies. It is a fine balance to strike, as the two cannot be done simultaneously.
 
-How does this apply to the job hunt? Well, each slot machine is just a job application. You have fixed odds at getting an interview out of each job, and your job is to maximize those odds. You're trying to get as many shots as interviews as possible but can only tailor your application to one position at at time. So you have to iteratively build skills, present a resume/application that shows how you're suited to a job, then interview for it - for multiple jobs with overlapping skillsets at different organizations. You have to **explore** skills, fields, learning paths, projects, and careers - while **exploiting** your natural strengths, your available resources (like time, energy, the internet, universities, money) and your capacity.
+How does this apply to the job hunt? Well, each slot machine is just a job application. You have fixed odds of getting an interview out of each job, and your job is to maximize those odds. You're trying to get as many shots at interviews as possible, but can only tailor your application to one position at at time. So you have to iteratively build skills, present a resume/application that shows how you're suited to a job, then interview for it - for multiple jobs with overlapping skillsets at different organizations. You have to **explore** skills, fields, learning paths, projects, and careers - while **exploiting** your natural strengths, your available resources (like time, energy, the internet, universities, money) and your capacity.
 
 Personally, I'd rather not think of **exploiting** myself - so I reframe it as functioning at a healthy and sustainable capacity.
 
