@@ -38,8 +38,12 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
     Most jobs start with an organization that identifies certain needs and advertises a role with a job description and list of requirements. In order to get hired, you need to know for sure what roles you'd be good at. You will save yourself time, effort and angst if you only apply to jobs that fit you well.
 
     What does this mean? It means you should know the various names of each role you might be interested in. Have ready a list of places that are hiring for it (check all kinds of job listings). Know what's on the job descriptions. Talk to people working in those roles. Learn how the industry works and what's important, what's changing. Evaluate if people's experiences in those roles/orgs match your expectations and goals. Ensure there is a feasible path to acquiring any skills you might need. Decide on the positions you want to apply for.
-    "But it's so dehumanizing to attach my entire identity to a job description ugh am I not more than just a list of skills." - old angsty me
-    In retrospect, that attitude was not helpful.
+
+    *"But it's so dehumanizing to attach my entire identity to a job description ugh am I not more than just a list of skills."*
+
+    - *old angsty me*
+
+    In retrospect, this attitude was not helpful.
 
     **DO NOT: Chase a bad fit**
 
