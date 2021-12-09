@@ -31,7 +31,7 @@ Yeah, it was stressful getting a job. To fool myself into treating each rejectio
 
     **DO NOT: Take rejection personally**
 
-That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment. It's time to unpack them some more.
+That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those can be tricky. But honesly, there is no other way to successfully (legally?) seek employment. It's time to unpack these steps a little.
 
 1.  **DO: Decide which job/s you want**
 
