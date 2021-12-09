@@ -62,6 +62,8 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
 
     Get good at applying for jobs. Success = interview, nothing else. You should be improving your odds of getting an interview at every step of the pipeline. Fit your resume to the job description without lying (there are cool tools that help you do this - search 'resume scanner'). Get that referral, get every referral - each referral has a 1000x chance of an interview than sending a PDF into the void. Cold message people on LinkedIn - ask for a referral, to chat, whatever. Go to conferences and job fairs. Keep expectations low and regularity high. Set small, manageable targets. Put more time and effort into 'dream jobs'. Take care of yourself. Manage your mental health, stress, and anxiety.
 
+    Once you get an interview, prepare for it! Ask a friend or mentor to mock interview you. Review commonly asked questions. Research the company and its current employees. Practice talking about your projects. Practice answering questions you know how to answer. Practice asking smart questions about things you have no clue about.
+
     **DO NOT: Take rejection personally**
 
     **An email rejection never contains constructive feedback and should not be treated as feedback at all**. Resumes, especially 1-pagers cannot be be used to rank people in any meaningful way. People hack them all the time (and so should you, without lying). This is why you should focus all your attention on shooting for an interview, and not on missed shots. **Only post-interview rejection is worth introspecting.**
@@ -70,13 +72,14 @@ That's it. Those are the three steps. Make sure to avoid the **DO NOT**'s, those
     	title="Love to see 'regret to inform you'"/>
     There is no useful feedback in any of these emails. Still, my self-loathing would activate every single time - "Ah yes I too regret to be informed that I will obviously die unemployed and vilified as a skill-less con artist."
 
+That's it. If you're looking for a job, there are only these 3 steps. You can and should be working on all three - ensure you're applying for the right jobs, ensure you're working on being a great fit for them, and ultimately, ensure you can get and nail that interview. A few closing thoughts:
 
-I hope this helps you. A few closing thoughts:
-
-- If you **did** get interviewed and were rejected - that can be powerful feedback. Someone seriously evaluated you for the position, and then chose someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit for your profile yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to say. Seemingly random experiences can sometimes make or break a fit, so sometimes, it's just chance. It is **okay** to not be certain why you got rejected. It is **not okay** to beat yourself up about it.
+- If you **did** get interviewed and were rejected - that can be powerful feedback. Someone seriously evaluated you for the position, and then chose someone else. There could be powerful fodder for growth if you have the vulnerability and sincerity to ask why. Perhaps your skills could be sharpened a bit, or perhaps you haven't found the best fit for your profile yet. Don't be afraid to reach out for constructive feedback from your interviewers. Most likely they'll not reply, but if they do they might have something useful to tell you - like a different position you might be better suited to, or a skill they needed that you were missing. Besides that, completely random experiences can sometimes make or break a fit, so sometimes, it's just chance that you weren't picked. It is **okay** to not be certain why you got rejected. It is **not okay** to beat yourself up about it.
 - Interviews should be a place where both, the employer and the employee review **each other**. You should feel empowered to say no to an employer if they don't match your expectations or goals. Of course, as an immigrant who was desperately seeking my first post-Master's job, this is an entirely theoretical hill I choose to die on.
 - Remember - a job exists to take advantage of your skills and channel them into something that is (ideally) financially sustainable (either by turning a profit or achieving targets that help maintain funding). Even a great job, a dream job will ultimately have that bottom line that makes you valuable to the organization. The nice part is that good jobs can facilitate a mutually beneficial relationship where you get to learn, grow, and get paid. Don't get attached to places that didn't want you in the first place.
 - Say to yourself everyday: I belong. I have skills. My self-worth is not tied to the status of my job-hunt.
+
+> Say to yourself everyday: I belong. I have skills. My self-worth is not tied to the status of my job-hunt.
 
 **How we think powerfully affects what we do and how we do it. I wish you a minimally stressful and maximally rewarding job hunt. Nothing can stop you when you start doing what feels right to do.**
 
