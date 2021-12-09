@@ -29,8 +29,6 @@ In my 4 years working with data, I've had the good fortune to work with some ama
 
 My research interests are in the intersection of AI and society - including political polarization, accuracy and bias in information, and knowledge bases.
 
-
-
 ### Education at UChicago
 
 I earned a [Master of Arts in Computational Social Science](https://macss.uchicago.edu/) at **The University of Chicago**. I like to describe it as 'data science with social data' - using quantitative methods to understand our increasingly digital footprints and behaviors.

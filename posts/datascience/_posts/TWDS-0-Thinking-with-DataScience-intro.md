@@ -13,7 +13,6 @@ For the [sexiest job of the 21st century](https://hbr.org/2012/10/data-scientist
 Here's a conceptual itinerary:
 
 1. What is Data Science and do you need it?
-
     a. Who is a Data Scientist?
     b. Should you be hiring data scientists?
     c. Are you hiring data scientists?

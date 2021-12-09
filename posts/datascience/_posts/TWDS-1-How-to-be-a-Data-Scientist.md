@@ -28,7 +28,10 @@ Aspiring data scientists are pushed to acquire a range of skills at breakneck pa
 - Cloud technologies (including the host of sub-services offered by giants like Amazon Web Services, Google Cloud Platform, Microsoft Azure)
 - Software engineering tools and best practices (like Github, VCS, Docker)
 - MLOps tools and best practices (like Airflow)
+
+Other under-rated skills that data scientists **aren't commonly directed to acquire, but should**:
 - Project management strategies and tools (like Jira or Trello)
+- 
 
 In this post, I will map these skills to sub-projects within Data Science. If you're a current or aspiring data scientist, this will help you figure out your strengths and interests in the field, and how to pursue them.
 
