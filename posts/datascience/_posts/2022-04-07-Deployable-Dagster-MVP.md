@@ -49,9 +49,9 @@ Dagster lets you design your data `graph` as a DAG of `op`s. Each `graph` can be
 
 Other tools that do something similar are Apache [Airflow](https://airflow.apache.org/), Spotify’s [Luigi](https://github.com/spotify/luigi), Lyft’s [Flyte](https://flyte.org/), and the proprietary software Prefect. If you know any of these (except Prefect, I don’t care about that one), please write a blog post teaching it.
 
-## Run the code
+## Run the Dagster job
 
-**Step 0:** `pip install dagster dagit`
+**Step 0 and the most important step is to** `pip install dagster dagit`
 
 1. **Clone the repo and `cd` to it using the following Terminal commands:**
     ```bash
@@ -99,6 +99,8 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
           relative_path: "/path/to/dagster-mvp/pipeline_1.py"
           attribute: repo_1
     ```
+
+    As your codebase grows, you can load more repos from other locations, or even from installed Python packages.
 
 3. **Go through the `dagster` constructs in `pipeline_1.py`**
 
