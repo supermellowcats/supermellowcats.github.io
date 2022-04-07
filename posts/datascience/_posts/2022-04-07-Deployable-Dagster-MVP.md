@@ -45,7 +45,7 @@ If you’re still curious, go to [Wikipedia](https://en.wikipedia.org/wiki/Direc
 
 The point is, **data pipelines** should absolutely always be designed as **DAGs.** Why? Because data ops should flow in one direction without forming cycles.
 
-Dagster lets you design your data `pipeline` as a DAG (directed acyclic graph) of operations (called `op`s). Each `pipeline` can be configured into a runnable `job`.
+Dagster lets you design your data `graph` as a DAG of `op`s. Each `graph` can be configured into a runnable `job`. `job`s can be run in process, but can also be orchestrated with complicated dependencies.
 
 Other tools that do something similar are Apache [Airflow](https://airflow.apache.org/), Spotify’s [Luigi](https://github.com/spotify/luigi), Lyft’s [Flyte](https://flyte.org/), and the proprietary software Prefect. If you know any of these (except Prefect, I don’t care about that one), please write a blog post teaching it.
 
