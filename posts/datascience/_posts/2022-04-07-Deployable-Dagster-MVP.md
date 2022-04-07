@@ -40,7 +40,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
 ## Run the code
 
-Step 0: `pip install dagster dagit`
+**Step 0:** `pip install dagster dagit`
 
 1. **Clone the repo and `cd` to it using the following Terminal commands:**
     ```bash
@@ -115,7 +115,7 @@ Step 0: `pip install dagster dagit`
     If it doesn’t work, double check the env variable `DAGSTER_HOME`.
 
 6. **Run the damn thing from the pretty UI**
-
+    
     Run `dagit` to spin up a pretty local orchestration server.
 
     ```bash
