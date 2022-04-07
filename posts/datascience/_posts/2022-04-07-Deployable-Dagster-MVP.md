@@ -122,7 +122,7 @@ Step 0: `pip install dagster dagit`
     dagit
     ```
 
-    Go to `[localhost:3000](http://localhost:3000)` in your browser.
+    Go to [localhost:3000](http://localhost:3000) in your browser.
 
     You should be able to see your pipelines and jobs. Click on `clean_string_job` and go to the launchpad. You should be able to run it from here.
 
