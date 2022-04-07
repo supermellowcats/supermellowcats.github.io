@@ -43,92 +43,93 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 Step 0: `pip install dagster dagit`
 
 1. **Clone the repo and `cd` to it using the following Terminal commands:**
+    ```bash
+    git clone https://github.com/bakerwho/dagster-mvp
 
-```bash
-git clone https://github.com/bakerwho/dagster-mvp
+    cd dagster-mvp
 
-cd dagster-mvp
+     ls
+    ```
 
-ls
-```
+    It should look something like this:
 
-It should look something like this:
+    ```bash
+    .
+    ├── README.md
+    ├── dagster-exec
+    │   ├── dagster.yaml
+    │   └── workspace.yaml
+    └── pipeline_1.py
+    ```
 
-```bash
-.
-├── README.md
-├── dagster-exec
-│   ├── dagster.yaml
-│   └── workspace.yaml
-└── pipeline_1.py
-```
+    `dagster-exec` is where we will store all execution information, logs, etc. Everything outside of that can be ML code. Note that `dagster-exec` can have any name and can be stored anywhere on the machine. The only requirement is that it should contain a `workspace.yaml`.
 
-`dagster-exec` is where we will store all execution information, logs, etc. Everything outside of that can be ML code. Note that `dagster-exec` can have any name and can be stored anywhere on the machine. The only requirement is that it should contain a `workspace.yaml`.
+2. **Edit 2 crucial lines to point to the correct filepaths.**
 
-1. **Edit 2 crucial lines to point to the correct filepaths.**
+    **Step 2A:** `.example_envrc` is a file containing environment variables. Some of these, like the AWS and Snowflake credentials are for illustratory purposes. Dagster requires that you set `DAGSTER_HOME` as the full path to the `dagster-mvp/dagster-exec` directory
 
-**Step 2A:** `.example_envrc` is a file containing environment variables. Some of these, like the AWS and Snowflake credentials are for illustratory purposes. Dagster requires that you set `DAGSTER_HOME` as the full path to the `dagster-mvp/dagster-exec` directory
+    ```bash
+    export DAGSTER_HOME="/path/to/dagster-mvp/dagster-exec"
+    ```
 
-```bash
-export DAGSTER_HOME="/path/to/dagster-mvp/dagster-exec"
-```
+    Once you have done this, type in your Terminal:
 
-Once you have done this, type in your Terminal:
+    ```bash
+    source .example_envrc
+    ```
 
-```bash
-source .example_envrc
-```
+    Pro tip: You can use `direnv` to automatically set environment variables in a `.envrc` file that persist within the scope of the parent directory and all subdirectories.
 
-Pro tip: You can use `direnv` to automatically set environment variables in a `.envrc` file that persist within the scope of the parent directory and all subdirectories.
+    **Step 2B:** `dagster-exec/workspace.yaml` contains the following line which should point to the correct `.py` file containing a repo name as an `attribute`.
 
-**Step 2B:** `dagster-exec/workspace.yaml` contains the following line which should point to the correct `.py` file containing a repo name as an `attribute`.
+    ```bash
+    load_from:
+      - python_file:
+          relative_path: "/path/to/dagster-mvp/pipeline_1.py"
+          attribute: repo_1
+    ```
 
-```bash
-load_from:
-  - python_file:
-      relative_path: "/path/to/dagster-mvp/pipeline_1.py"
-      attribute: repo_1
-```
+3. **Go through the `dagster` constructs in `pipeline_1.py`**
 
-1. **Go through the `dagster` constructs in `pipeline_1.py`**
+    There are a few useful ones:
 
-There are a few useful ones:
+    - a fake `resource` called `connection`: it takes a string `credentials` and turns it to uppercase). In a real use-case, you could use a `resource` for a database connection.
+    - a few fake `op`s: `get_string()`  selects one of two strings, `normalize_string()` turns an input string into upper or lowercase, and `clean_string` strips an input string of punctuation.
+    - a fake `IOManager`: an IOManager is attached to an `op` output, and it runs between the end of an upstream op and the start of a downstream op. This is a slightly tricky concept, but basically Dagster always wants to persist op results to memory - it is concerned that you will lose track of them unless they are saved to disk. The default IOManager pickles the results, whatever they may be. Like civilized ML Engineers, we want to write our string outputs to `.txt`, so we build something called `CustomIOManager` .
+    - the resource definitions and configuration needed to turn the `clean_string_graph` into `clean_string_job` using `clean_string_graph.to_job(resource_defs, config)`
+    - a `schedule` with the appropriate CRON string to run  `clean_string_job` every minute
 
-- a fake `resource` called `connection`: it takes a string `credentials` and turns it to uppercase). In a real use-case, you could use a `resource` for a database connection.
-- a few fake `op`s: `get_string()`  selects one of two strings, `normalize_string()` turns an input string into upper or lowercase, and `clean_string` strips an input string of punctuation.
-- a fake `IOManager`: an IOManager is attached to an `op` output, and it runs between the end of an upstream op and the start of a downstream op. This is a slightly tricky concept, but basically Dagster always wants to persist op results to memory - it is concerned that you will lose track of them unless they are saved to disk. The default IOManager pickles the results, whatever they may be. Like civilized ML Engineers, we want to write our string outputs to `.txt`, so we build something called `CustomIOManager` .
-- the resource definitions and configuration needed to turn the `clean_string_graph` into `clean_string_job` using `clean_string_graph.to_job(resource_defs, config)`
-- a `schedule` with the appropriate CRON string to run  `clean_string_job` every minute
-1. **Run the damn thing in Python**
+4. **Run the damn thing in Python**
 
-```bash
-from pipeline_1 import clean_string_job
-clean_string_job.execute_in_process()
-```
+    ```bash
+    from pipeline_1 import clean_string_job
+    clean_string_job.execute_in_process()
+    ```
 
-1. **Run the damn thing from the command line**
+5. **Run the damn thing from the command line**
 
-```bash
-dagster job execute clean_string_job
-```
+    ```bash
+    dagster job execute clean_string_job
+    ```
 
-If it doesn’t work, double check the env variable `DAGSTER_HOME`.
+    If it doesn’t work, double check the env variable `DAGSTER_HOME`.
 
-1. **Run the damn thing from the pretty UI**
+6. **Run the damn thing from the pretty UI**
 
-Run `dagit` to spin up a pretty local orchestration server.
+    Run `dagit` to spin up a pretty local orchestration server.
 
-```bash
-dagit
-```
+    ```bash
+    dagit
+    ```
 
-Go to `[localhost:3000](http://localhost:3000)` in your browser.
+    Go to `[localhost:3000](http://localhost:3000)` in your browser.
 
-You should be able to see your pipelines and jobs. Click on `clean_string_job` and go to the launchpad. You should be able to run it from here.
+    You should be able to see your pipelines and jobs. Click on `clean_string_job` and go to the launchpad. You should be able to run it from here.
 
-1. **Play with the scheduler**
+7. **Play with the scheduler**
 
-Dagit’s UI also has a Schedules page. Click on it and you’ll see settings that let you turn the scheduler on and off. The scheduler is currently set to run every minute, but you can play with the Cron string. Changing code between or during scheduled runs leads to interesting results - play with the orchestrator to see what happens!
+    Dagit’s UI also has a Schedules page. Click on it and you’ll see settings that let you turn the scheduler on and off. The scheduler is currently set to run every minute, but you can play with the Cron string. Changing code between or during scheduled runs leads to interesting results - play with the orchestrator to see what happens!
+
 
 That’s it. It just works. If you dig around, there are a lot of other features you can play with. For example, I am currently uselessly passing an empty dict `hyperparameters` to an op that doesn’t use it.
 
