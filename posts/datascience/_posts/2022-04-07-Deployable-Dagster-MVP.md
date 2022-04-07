@@ -1,4 +1,15 @@
-# A deployable Dagster MVP (in 120 lines of Python)
+---
+layout: post
+title: "A deployable Dagster MVP (in 120 lines of Python)m"
+categories: DataScience
+comments: true
+published: true
+excerpt: Get Dagster running in 5 minutes ...
+tags: code Python MLOps dagster
+last_modified_at: 2021-09-23
+---
+
+# Get Dagster running in 5 minutes
 
 Dagster describes itself as ‘the data orchestration tool designed for productivity’. And it’s a great tool. It’s also one with a steep learning curve. While learning Dagster, I found myself hunting for a simple example of a deployable data pipeline. It didn’t exist, so I built it myself. Here’s the Github repo: https://github.com/bakerwho/dagster-mvp.
 
@@ -115,7 +126,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
     If it doesn’t work, double check the env variable `DAGSTER_HOME`.
 
 6. **Run the damn thing from the pretty UI**
-    
+
     Run `dagit` to spin up a pretty local orchestration server.
 
     ```bash
