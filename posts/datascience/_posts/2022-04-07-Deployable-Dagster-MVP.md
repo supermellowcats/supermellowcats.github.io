@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A deployable Dagster MVP (in 120 lines of Python)m"
+title: "A deployable Dagster MVP (in 120 lines of Python)"
 categories: DataScience
 comments: true
 published: true
