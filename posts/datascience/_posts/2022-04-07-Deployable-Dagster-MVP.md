@@ -11,7 +11,7 @@ last_modified_at: 2021-09-23
 
 # Get Dagster running in 5 minutes
 
-Dagster describes itself as ‘the data orchestration tool designed for productivity’. And it’s a great tool. It’s also one with a steep learning curve. While learning Dagster, I found myself hunting for a simple example of a deployable data pipeline. It didn’t exist, so I built it myself. Here’s the Github repo: https://github.com/bakerwho/dagster-mvp.
+[Dagster](https://dagster.io/) describes itself as ‘the data orchestration tool designed for productivity’. And it’s a great tool. It’s also one with a steep learning curve. While learning Dagster, I found myself hunting for a simple example of a deployable data pipeline. It didn’t exist, so I built it myself. Here’s the Github repo: https://github.com/bakerwho/dagster-mvp.
 
 Hopefully this will save you a lot of trial-and-error learning by giving you an example that works, from start to finish.
 
