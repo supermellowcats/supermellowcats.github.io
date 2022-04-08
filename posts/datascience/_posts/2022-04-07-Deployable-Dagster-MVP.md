@@ -3,7 +3,7 @@ layout: post
 title: "A deployable Dagster MVP (in 120 lines of Python)"
 categories: DataScience
 comments: true
-published: true
+published: false
 excerpt: Get Dagster running in 5 minutes ...
 tags: code Python MLOps dagster
 last_modified_at: 2021-09-23
