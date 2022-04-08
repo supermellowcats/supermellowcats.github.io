@@ -77,13 +77,13 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
 2. **Edit 2 crucial lines to point to the correct filepaths.**
 
-    **Step 2A:** `.example_envrc` is a file containing environment variables. Some of these, like the AWS and Snowflake credentials are for illustratory purposes. Dagster requires that you set `DAGSTER_HOME` as the full path to the `dagster-mvp/dagster-exec` directory
+    **Step 2A:** `.example_envrc` is a file containing environment variables. Some of these, like the AWS and Snowflake credentials are for illustratory purposes. Dagster requires that you set `DAGSTER_HOME` path to your local `dagster-mvp/dagster-exec` directory
 
     ```bash
     export DAGSTER_HOME="/path/to/dagster-mvp/dagster-exec"
     ```
 
-    Once you have done this, type in your Terminal:
+    Once you have done this, activate the environment variables by running:
 
     ```bash
     source .example_envrc
@@ -91,7 +91,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
     Pro tip: You can use `direnv` to automatically set environment variables in a `.envrc` file that persist within the scope of the parent directory and all subdirectories.
 
-    **Step 2B:** `dagster-exec/workspace.yaml` contains the following line which should point to the correct `.py` file containing a repo name as an `attribute`.
+    **Step 2B:** `dagster-exec/workspace.yaml` contains the following line. Edit it to point to the correct `.py` file and repo within it as an `attribute`. In this case, it is `repo_1` defined in `pipeline_1.py`:
 
     ```bash
     load_from:
@@ -114,7 +114,9 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
 4. **Run the damn thing in Python**
 
-    ```bash
+    Start a Python shell in `dagster-mvp` and run:
+
+    ```python
     from pipeline_1 import clean_string_job
     clean_string_job.execute_in_process()
     ```
@@ -125,7 +127,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
     dagster job execute clean_string_job
     ```
 
-    If it doesn’t work, double check the env variable `DAGSTER_HOME`.
+    If this doesn’t work, double check the env variable `DAGSTER_HOME`.
 
 6. **Run the damn thing from the pretty UI**
 
@@ -137,7 +139,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
     Go to [localhost:3000](http://localhost:3000) in your browser.
 
-    You should be able to see your pipelines and jobs. Click on `clean_string_job` and go to the launchpad. You should be able to run it from here.
+    You should be able to see your pipelines and jobs. Click on `clean_string_job` and go to the 'Launchpad'. From here, you should be able to do a number of things, like edit the config, run a job, or start a schedule.
 
 7. **Play with the scheduler**
 
