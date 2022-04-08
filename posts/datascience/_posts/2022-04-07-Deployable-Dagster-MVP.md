@@ -112,7 +112,9 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
     - the resource definitions and configuration needed to turn the `clean_string_graph` into `clean_string_job` using `clean_string_graph.to_job(resource_defs, config)`
     - a `schedule` with the appropriate CRON string to run  `clean_string_job` every minute
 
-4. **Run the damn thing in Python**
+## 3 ways to run this pipeline
+
+1. **Run the damn thing in Python**
 
     Start a Python shell in `dagster-mvp` and run:
 
@@ -121,7 +123,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
     clean_string_job.execute_in_process()
     ```
 
-5. **Run the damn thing from the command line**
+2. **Run the damn thing from the command line**
 
     ```bash
     dagster job execute clean_string_job
@@ -129,7 +131,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
     If this doesn’t work, double check the env variable `DAGSTER_HOME`.
 
-6. **Run the damn thing from the pretty UI**
+3. **Run the damn thing from the pretty UI**
 
     Run `dagit` to spin up a pretty local orchestration server.
 
@@ -141,13 +143,67 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
     You should be able to see your pipelines and jobs. Click on `clean_string_job` and go to the 'Launchpad'. From here, you should be able to do a number of things, like edit the config, run a job, or start a schedule.
 
-7. **Play with the scheduler**
+4. **(Optional) Play with the scheduler**
 
     Dagit’s UI also has a Schedules page. Click on it and you’ll see settings that let you turn the scheduler on and off. The scheduler is currently set to run every minute, but you can play with the Cron string. Changing code between or during scheduled runs leads to interesting results - play with the orchestrator to see what happens!
 
+## Proof it ran: check the logs
 
-That’s it. It just works. If you dig around, there are a lot of other features you can play with. For example, I am currently uselessly passing an empty dict `hyperparameters` to an op that doesn’t use it.
+Once you run a job, you will notice some interesting changes to your `dagster-exec` folder.
 
-If you had a massively complicated set of ML pipelines in different repos, you develop them independently but still orchestrate them together. You could chain operations using Dagster, launching runs of certain pipelines based on dependencies, periodic `schedules` or even custom `sensor`s that respond to an event. You could leverage multiprocessing to distribute big computations, and wait to collect the results before starting the next step. You could set retry conditions and smart error handling. You could keep your dev process clean by writing simple tests using dummy `config`s for predictable edge-cases.
+There will suddenly appear 3 subdirectories, `data`, `logs` and `storage`. If you explore the structure, it'll look like this:
 
-Hopefully, you can now see the big picture, and have a tangible way to get started. Anything you can do in Python, you can do in Dagster - but now you can orchestrate it reliably in production.
+```
+├── data
+│   └── c47d674e-b547-4c81-807a-b2cd823a674b
+│       ├── sent.txt
+│       └── sent_clean.txt
+├── logs
+│   ├── events
+│   │   ├── c47d674e-b547-4c81-807a-b2cd823a674b.db
+│   │   └── index.db
+│   ├── runs
+│   │   └── runs.db
+│   └── schedules
+│       └── schedules.db
+├── storage
+│   └── c47d674e-b547-4c81-807a-b2cd823a674b
+│       ├── compute_logs
+│       │   ├── clean_string.complete
+│       │   ├── clean_string.err
+│       │   ├── clean_string.out
+│       │   ├── get_string.complete
+│       │   ├── get_string.err
+│       │   ├── get_string.out
+│       │   ├── normalize_string.complete
+│       │   ├── normalize_string.err
+│       │   └── normalize_string.out
+│       └── normalize_string
+│           └── sent_norm
+```
+
+Here, `c47d674e-b547-4c81-807a-b2cd823a674b` is the `run_id` for your run.
+
+### Logs
+
+Dagster logs pretty much everything about your run in a nice, SQLite `.db` format under `logs`. It also stores `.err`, `.out` and `.complete` compute logs for each op.
+
+`logs` and `storage` are locations set in YAML in `dagster-exec/dagster.yaml`.  You don't need to set them, but then Dagster will store them automatically in the default location.
+
+### IOManagers
+
+The output from `normalize_string` is handled by the default IOManager. That's why it is stored as a pickled object `sent_norm`.
+
+The string outputs from the other 2 of our ops are handled by our custom `CustomIOManager`. Our IOManager stores it in `.txt` files in a dir called `data`, under a sub-dir with same name as the `run_id`.
+
+The IOManager can be useful for finer control on your op outputs (e.g. you can choose which outputs to cache, where to store them, etc.).
+
+## In conclusion
+
+That’s it. It just works. If you dig around, you'll find lots of other features I've played with. For example, I am currently uselessly passing an empty dict `hyperparameters` to an op that doesn’t use it.
+
+Two closing points of advice:
+- With an interesting tool like Dagster, it's easy to get carried away building. Strip your pipeline to the essentials and build the simplest thing that *just works*. You can add complexity and sophistication later, and always revert to the simpler version that *just works* if anything breaks. Be **brutal** with cutting out redundant concepts. For example, you don't *really* need the Dagster `resource` concept at all. It's just a nice-to-have, and I used it to configure paths and database connections. But it may not need to be used!
+- Hopefully the value add from Dagster is self-evident for reliable, deployed machine learning. If you have a massively complicated set of ML pipelines in different repos, you can develop them independently but still orchestrate them together. You can chain operations using Dagster, launching runs of certain pipelines based on dependencies, periodic `schedules` or even custom `sensor`s that respond to an event. You can leverage multiprocessing to distribute big computations, and wait to collect the results before starting the next step. You can define smart retry conditions and error handling. You can keep your dev process clean by writing simple tests using dummy `config`s for predictable edge-cases.
+
+Hopefully, you can now see the big picture, and have a tangible way to get started. Anything you can do in Python, you can do in Dagster - but also now you can orchestrate it reliably in production.
