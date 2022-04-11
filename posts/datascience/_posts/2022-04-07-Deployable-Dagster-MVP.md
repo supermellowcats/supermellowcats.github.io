@@ -108,8 +108,8 @@ Other tools that do something similar to Dagster are Apache [Airflow](https://ai
     There are a few useful ones:
 
     - a fake `resource` called `connection`: it takes a string `credentials` and turns it to uppercase). In a real use-case, you could use a `resource` for a database connection.
-    - a few fake `op`s: `get_string()`  selects one of two strings, `normalize_string()` turns an input string into upper or lowercase, and `clean_string` strips an input string of punctuation.
-    - a fake `IOManager`: an IOManager is attached to an `op` output, and it runs between the end of an upstream op and the start of a downstream op. This is a slightly tricky concept, but basically Dagster always wants to persist op results to memory - it is concerned that you will lose track of them unless they are saved to disk. The default IOManager pickles the results, whatever they may be. Like civilized ML Engineers, we want to write our string outputs to `.txt`, so we build something called `CustomIOManager` .
+    - 3 `op`s: `get_string()`  selects one of two strings, `normalize_string()` turns an input string into upper or lowercase, and `clean_string` strips an input string of punctuation.
+    - a custom `IOManager`: an IOManager is attached to an `op` output, and it runs between the end of an upstream op and the start of a downstream op. This is a slightly tricky concept, but basically Dagster always wants to persist op results to memory - it is concerned that you will lose track of them unless they are saved to disk. The default IOManager pickles the results, whatever they may be. Like civilized ML Engineers, we want to write our string outputs to `.txt`, so we build something called `CustomIOManager` .
     - the resource definitions and configuration needed to turn the `clean_string_graph` into `clean_string_job` using `clean_string_graph.to_job(resource_defs, config)`
     - a `schedule` with the appropriate CRON string to run  `clean_string_job` every minute
 
