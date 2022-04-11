@@ -12,7 +12,7 @@ tags: code Python MLOps dagster
 
 [Dagster](https://dagster.io/) describes itself as ‘the data orchestration tool designed for productivity’. And it’s a great tool. It’s also one with a steep learning curve. While learning Dagster, I found myself hunting for a simple example of a deployable data pipeline. One Minimum Viable Product that just *works*. I couldn't find one, so I built it myself.
 
-Here’s the Github repo: https://github.com/bakerwho/dagster-mvp. If you follow this 5-minute read, you will know what's good about Dagster and how to get a simple Dagster pipeline running.
+Here’s the Github repo: [https://github.com/bakerwho/dagster-mvp](https://github.com/bakerwho/dagster-mvp). If you follow this 5-minute read, you will know what's good about Dagster and how to get a simple Dagster pipeline running.
 
 Hopefully this will save you a lot of trial-and-error learning by giving you an example that works, from start to finish.
 
