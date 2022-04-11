@@ -1,21 +1,22 @@
 ---
 layout: post
-title: "A deployable Dagster MVP (in 120 lines of Python)"
+title: "The simplest deployable Dagster pipeline (in 120 lines of Python)"
 categories: DataScience
 comments: true
-published: false
+published: true
 excerpt: Get Dagster running in 5 minutes ...
 tags: code Python MLOps dagster
-last_modified_at: 2021-09-23
 ---
 
 # Get Dagster running in 5 minutes
 
-[Dagster](https://dagster.io/) describes itself as ‘the data orchestration tool designed for productivity’. And it’s a great tool. It’s also one with a steep learning curve. While learning Dagster, I found myself hunting for a simple example of a deployable data pipeline. It didn’t exist, so I built it myself. Here’s the Github repo: https://github.com/bakerwho/dagster-mvp.
+[Dagster](https://dagster.io/) describes itself as ‘the data orchestration tool designed for productivity’. And it’s a great tool. It’s also one with a steep learning curve. While learning Dagster, I found myself hunting for a simple example of a deployable data pipeline. One Minimum Viable Product that just *works*. I couldn't find one, so I built it myself.
+
+Here’s the Github repo: https://github.com/bakerwho/dagster-mvp. If you follow this 5-minute read, you will know what's good about Dagster and how to get a simple Dagster pipeline running.
 
 Hopefully this will save you a lot of trial-and-error learning by giving you an example that works, from start to finish.
 
-The simple pipeline we will run today performs three steps or `op`s:
+The embarrassingly simple pipeline we will run today performs three steps or `op`s:
 
 1. Select 1 of 2 sentences based on an input `key`
 2. Apply upper- or lower-case ‘normalization’
@@ -25,7 +26,7 @@ We build the pipeline as a Dagster `graph` that chains these 3 `op`s. We then co
 
 ## Key Dagster concepts
 
-Dagster lets you build **data pipelines** and orchestrate their execution .
+Dagster lets you build **data pipelines** and orchestrate their execution.
 
 A **data pipeline** is a set of compute operations that gets data from a **source**, **transforms** it to increase its value, and stores the finished ‘**data product**’ somewhere where it will be useful.
 
@@ -39,15 +40,15 @@ Next, a key concept in Dagster is the DAG.
 
 A **DAG (directed acyclic graph)** is a set of nodes (say, A, B, C) and directed edges (directed edge A→B does not imply directed edge B→A) between them with no cycles (edges A→B→C implies no edge C→A).
 
-If you’re still curious, go to [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+If you want to know more, go to [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
 ## Putting it together
 
 The point is, **data pipelines** should absolutely always be designed as **DAGs.** Why? Because data ops should flow in one direction without forming cycles.
 
-Dagster lets you design your data `graph` as a DAG of `op`s. Each `graph` can be configured into a runnable `job`. `job`s can be run in process, but can also be orchestrated with complicated dependencies.
+Dagster lets you design your data `graph` as a DAG of `op`s. You then configure a `graph` into a runnable `job`. You can run a `job`s with a direct call from Python/the CLI - you can also orchestrate it with complicated dependencies.
 
-Other tools that do something similar are Apache [Airflow](https://airflow.apache.org/), Spotify’s [Luigi](https://github.com/spotify/luigi), Lyft’s [Flyte](https://flyte.org/), and the proprietary software Prefect. If you know any of these (except Prefect, I don’t care about that one), please write a blog post teaching it.
+Other tools that do something similar to Dagster are Apache [Airflow](https://airflow.apache.org/), Spotify’s [Luigi](https://github.com/spotify/luigi), Lyft’s [Flyte](https://flyte.org/), and the proprietary software Prefect. If you've used any of these and prefer it to Dagster, let us know why (except Prefect, I don’t care about that one). Type a comment below!
 
 ## Run the Dagster job
 
@@ -59,12 +60,12 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
     cd dagster-mvp
 
-     ls
+    ls
     ```
 
     It should look something like this:
 
-    ```bash
+    ```
     .
     ├── README.md
     ├── dagster-exec
@@ -77,19 +78,19 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
 2. **Edit 2 crucial lines to point to the correct filepaths.**
 
-    **Step 2A:** `.example_envrc` is a file containing environment variables. Some of these, like the AWS and Snowflake credentials are for illustratory purposes. Dagster requires that you set `DAGSTER_HOME` path to your local `dagster-mvp/dagster-exec` directory
+    **Step 2A:** `.example_envrc` is a file containing the ENVIRONMENT variables you need to set to run your Dagster project. Some of these, like the AWS and Snowflake credentials are for illustratory purposes. However, Dagster does prefer that you set `DAGSTER_HOME` variable with the path to your local `dagster-mvp/dagster-exec` directory
 
     ```bash
     export DAGSTER_HOME="/path/to/dagster-mvp/dagster-exec"
     ```
 
-    Once you have done this, activate the environment variables by running:
+    Once you have done this, activate these environment variables by running:
 
     ```bash
     source .example_envrc
     ```
 
-    Pro tip: You can use `direnv` to automatically set environment variables in a `.envrc` file that persist within the scope of the parent directory and all subdirectories.
+    Pro tip: You can use `direnv` (website [here](https://direnv.net/)) to automatically set environment variables in a `.envrc` file that persist within the scope of the parent directory and all subdirectories.
 
     **Step 2B:** `dagster-exec/workspace.yaml` contains the following line. Edit it to point to the correct `.py` file and repo within it as an `attribute`. In this case, it is `repo_1` defined in `pipeline_1.py`:
 
@@ -100,7 +101,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
           attribute: repo_1
     ```
 
-    As your codebase grows, you can load more repos from other locations, or even from installed Python packages.
+    Over time, your codebase will grow. You might introduce support for different encodings. Or, y'know, build an actual ML application. When that happens, you can load more repos from other locations, or even from installed Python packages.
 
 3. **Go through the `dagster` constructs in `pipeline_1.py`**
 
@@ -114,7 +115,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
 ## 3 ways to run this pipeline
 
-1. **Run the damn thing in Python**
+1. **Run it in Python**
 
     Start a Python shell in `dagster-mvp` and run:
 
@@ -123,7 +124,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
     clean_string_job.execute_in_process()
     ```
 
-2. **Run the damn thing from the command line**
+2. **Run it from the command line**
 
     ```bash
     dagster job execute clean_string_job
@@ -131,7 +132,7 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
     If this doesn’t work, double check the env variable `DAGSTER_HOME`.
 
-3. **Run the damn thing from the pretty UI**
+3. **Run it from a pretty UI**
 
     Run `dagit` to spin up a pretty local orchestration server.
 
@@ -145,13 +146,15 @@ Other tools that do something similar are Apache [Airflow](https://airflow.apach
 
 4. **(Optional) Play with the scheduler**
 
-    Dagit’s UI also has a Schedules page. Click on it and you’ll see settings that let you turn the scheduler on and off. The scheduler is currently set to run every minute, but you can play with the Cron string. Changing code between or during scheduled runs leads to interesting results - play with the orchestrator to see what happens!
+    Dagit’s UI also has a Schedules page. Click on it and you’ll see settings that let you turn the scheduler on and off. The scheduler is currently set to run every minute, but you can play with the Cron string in the Schedule definition in `pipeline_1.py`.
+
+    Extra credit assignment: changing code between or during scheduled runs leads to interesting results - play with the orchestrator to see what happens!
 
 ## Proof it ran: check the logs
 
 Once you run a job, you will notice some interesting changes to your `dagster-exec` folder.
 
-There will suddenly appear 3 subdirectories, `data`, `logs` and `storage`. If you explore the structure, it'll look like this:
+There will suddenly appear 3 subdirectories, `data`, `logs` and `storage`. If you explore the structure, it should look like this:
 
 ```
 ├── data
@@ -200,10 +203,10 @@ The IOManager can be useful for finer control on your op outputs (e.g. you can c
 
 ## In conclusion
 
-That’s it. It just works. If you dig around, you'll find lots of other features I've played with. For example, I am currently uselessly passing an empty dict `hyperparameters` to an op that doesn’t use it.
+That’s it. This is a minimal Dagster pipeline that just works. If you dig around, you'll find lots of other features I've played with. For example, I am currently uselessly passing an empty dict `hyperparameters` to an op that doesn’t use it.
 
 Two closing points of advice:
-- With an interesting tool like Dagster, it's easy to get carried away building. Strip your pipeline to the essentials and build the simplest thing that *just works*. You can add complexity and sophistication later, and always revert to the simpler version that *just works* if anything breaks. Be **brutal** with cutting out redundant concepts. For example, you don't *really* need the Dagster `resource` concept at all. It's just a nice-to-have, and I used it to configure paths and database connections. But it may not need to be used!
-- Hopefully the value add from Dagster is self-evident for reliable, deployed machine learning. If you have a massively complicated set of ML pipelines in different repos, you can develop them independently but still orchestrate them together. You can chain operations using Dagster, launching runs of certain pipelines based on dependencies, periodic `schedules` or even custom `sensor`s that respond to an event. You can leverage multiprocessing to distribute big computations, and wait to collect the results before starting the next step. You can define smart retry conditions and error handling. You can keep your dev process clean by writing simple tests using dummy `config`s for predictable edge-cases.
+- With a tool like Dagster, it's easy to get carried away building non-essential nice-to-haves. Strip your pipeline to the essentials and build the simplest thing that *just works*. You can add complexity and sophistication later, and if anything breaks, always revert to the simpler version that *just works*. But if you start trying to build the *perfect ML code project*, you may struggle with execution. Be **brutal** with cutting out redundant concepts. For example, you don't *really* need the Dagster `resource` concept at all. It's just a nice-to-have, and I used it to configure paths and database connections. But in most cases, it's non-essential.
+- The value-add from Dagster for reliable, deployed machine learning should be self-evident. If you have a complicated set of ML pipelines in different repos, Dagster empowers your team to develop  independently but still orchestrate in sync. You can use logic to chain operations using Dagster, launching runs of certain pipelines based on dependencies, periodic `schedules` or even custom `sensor`s that respond to an event. You can leverage multiprocessing to distribute big computations, and wait to collect the results before starting the next step. You can define smart retry conditions and error handling. You can keep your dev process clean by writing simple tests using dummy `config`s for predictable edge-cases.
 
 Hopefully, you can now see the big picture, and have a tangible way to get started. Anything you can do in Python, you can do in Dagster - but also now you can orchestrate it reliably in production.
