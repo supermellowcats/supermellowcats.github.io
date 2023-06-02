@@ -7,6 +7,19 @@ show_excerpts: true
 entries_layout: list
 ---
 
-Welcome to my blog where I write about [data science](https://bakerwho.github.io/top/datascience). I also document my [projects](https://bakerwho.github.io/top/projects) and [random thoughts, poems, and other pieces](https://bakerwho.github.io/top/datascience).
+Super Mellow Cats formed in the pandemic, from a jam session that was one of the peak moments of a Wisconsin cabin trip.
 
-## Recent Posts
+Introducing our eponymous debut EP, a 9-song original work.
+
+Song list:
+1. Dew Drop
+2. All That I Know
+3. Seabreeze
+4. Easy
+5. Clear as Crystal
+6. Don't Freeze
+7. Realization of Loneliness
+8. Anti Caffeine Acid Babies
+9. Ghost Toes
+
+Super Mellow Cats are: Aabir Abubaker Kar, Andrew Pashea, Srinidhi Madakasira
