@@ -6,23 +6,11 @@
 - title: Home
   url: /
 
-- title: About Me
+- title: About
   url: /top/about/
-
-- title: Projects
-  url: /top/projects/
 
 #- title: Code
 #  url: https://www.github.com/bakerwho
-
-- title: Data Science Blog
-  url: /top/datascience/
-
-- title: Personal
-  url: /top/personal/
-
-- title: Search
-  url: /top/search/
 
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
