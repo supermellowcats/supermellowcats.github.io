@@ -1,3 +1,5 @@
-# this is the source code of my blog
+# this is the source code of the Super Mellow Cats blog
 
-[click here](https://bakerwho.github.io)
+Super Mellow Cats are a band based in Chicago,
+
+[see the blog](https://supermellowcats.github.io)
