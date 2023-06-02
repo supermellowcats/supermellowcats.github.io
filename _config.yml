@@ -16,14 +16,10 @@
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Aabir Abubaker Kar's Website"
-description: "thoughtful data science"
-# contenders:
-# - thoughtful data science
-# - data science for society
-# - sensible data science
+title: "SuperMellowCats"
+description: "Debut Album out soon"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: "https://bakerwho.github.io"
+url: "https://supermellowcats.github.io"
 logo: "/images/general/favicon_large.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
@@ -36,9 +32,7 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: "UA-124610318-1"
 disqus:
-  shortname: "bakerwho-github-io"
-twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  shortname: "supermellowcats"
 
 # Liquid
 liquid:
@@ -92,35 +86,16 @@ defaults:
       layout: post
       share: true
 
-# Collections structure
-# collections:
-#  - datascience:
-#      output: true
-
 
 
 # Site Author
 author:
-  name: Aabir Abubaker Kar
+  name: Super Mellow Cats
   picture:
-  email: aabir.abubaker.kar at gmail dot com
-  twitter:
-  links:
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/aabir/
-      icon: fa-linkedin
-    - title: github
-      url: https://github.com/bakerwho
-      icon: fa-github
+  email: supermellowcats@gmail.com
 
 # Footer Links
 footer_links:
-  - title: Email
-    url: mailto:aabir.abubaker.kar at gmail dot com
-    icon: fa-envelope
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/aabir/
-    icon: fa-linkedin
-  - title: github
-    url: https://github.com/bakerwho
-    icon: fa-github
+  - title: Spotify
+    url: https://open.spotify.com/artist/4qTIKutk1wquqniQncC6Am
+    icon: fa-spotify
