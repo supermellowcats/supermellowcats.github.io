@@ -16,7 +16,7 @@
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "SuperMellowCats"
+title: "Super Mellow Cats"
 description: "Debut Album out soon"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://supermellowcats.github.io"
