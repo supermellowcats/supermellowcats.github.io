@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Summer 2023 Album Release!
 search: false
 limit: 20
 show_excerpts: true
@@ -9,7 +9,7 @@ entries_layout: list
 
 Super Mellow Cats formed in the pandemic, from a jam session that was one of the peak moments of a Wisconsin cabin trip.
 
-Introducing our eponymous debut EP, a 9-song original work.
+Introducing our eponymous debut album, a 9-song original work.
 
 Song list:
 1. Dew Drop
