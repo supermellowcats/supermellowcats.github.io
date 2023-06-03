@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Gallery
-taxonomy: personal
+taxonomy: gallery
 sort_by: date
 sort_order: reverse
 entries_layout: list
